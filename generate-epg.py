@@ -8,16 +8,9 @@ import xml.etree.ElementTree as ET
 # ==========================================
 RANKING = ["MTL", "COL", "UTA", "PHI", "PIT", "TOR"]
 
-def get_streak(team_data):
-    """Extrait la séquence (ex: W3, L1)"""
-    streak_code = team_data.get('streakCode', '')
-    streak_count = team_data.get('streakCount', '')
-    return f"{streak_code}{streak_count}" if streak_code else "N/A"
-
 def fetch_nhl_week():
-    print("--- Scraping NHL Weekly Data Enhanced ---")
+    print("--- Scraping NHL Weekly Data (Clean Version) ---")
     games = []
-    # On utilise schedule pour la vision hebdomadaire
     url = "https://api-web.nhle.com/v1/schedule/now"
     try:
         data = requests.get(url, timeout=15).json()
@@ -30,51 +23,30 @@ def fetch_nhl_week():
                 home_abbr = home_team.get('abbrev')
                 
                 if away_abbr in RANKING or home_abbr in RANKING:
-                    # 1. Infos de base
                     start_str = g.get('startTimeUTC', "")
                     start_utc = datetime.fromisoformat(start_str.replace('Z', '+00:00'))
+                    
+                    # Détection de l'heure temporaire (12:00 UTC)
                     is_tbd = "12:00:00Z" in start_str
                     
-                    # 2. Logique de description dynamique
+                    # Construction de la description simple
                     desc_parts = []
-                    game_type = g.get('gameType') # 2 = Saison, 3 = Playoffs
+                    game_type = g.get('gameType')
                     
-                    if game_type == 3: # PLAYOFFS
+                    if game_type == 3: # SÉRIES
                         series = g.get('seriesStatus', {})
-                        game_num = series.get('gameNumberOfSeries', 0)
-                        top_w = series.get('topSeedWins', 0)
-                        bot_w = series.get('bottomSeedWins', 0)
-                        
-                        # État de la série
-                        desc_parts.append(f"SÉRIES : Match #{game_num} ({series.get('topSeedTeamAbbrev')} {top_w}-{bot_w} {series.get('bottomSeedTeamAbbrev')})")
-                        
-                        # Si ce n'est pas le match 1, on mentionne le dernier résultat (souvent dans l'objet series)
-                        if game_num > 1:
-                            # Note: L'API schedule donne peu de détails sur le match 'précédent' spécifique, 
-                            # on mise sur l'état de la série qui est l'info la plus fraîche.
-                            desc_parts.append("Dernier match: Voir les faits saillants récents.")
-                    
-                    else: # SAISON RÉGULIÈRE
-                        # Séquences
-                        away_streak = get_streak(away_team)
-                        home_streak = get_streak(home_team)
-                        desc_parts.append(f"Séquences : {away_abbr}({away_streak}) | {home_abbr}({home_streak})")
-                        
-                        # Record tête-à-tête (si disponible dans l'API)
-                        # À défaut d'historique complet, on indique les fiches générales
-                        desc_parts.append(f"Fiches : {away_abbr}({away_team.get('record', 'N/A')}) - {home_abbr}({home_team.get('record', 'N/A')})")
+                        series_str = f"SÉRIES: ({series.get('topSeedTeamAbbrev')} {series.get('topSeedWins', 0)}-{series.get('bottomSeedWins', 0)} {series.get('bottomSeedTeamAbbrev')})"
+                        desc_parts.append(series_str)
+                    else: # SAISON
+                        desc_parts.append(f"Record: {away_abbr}({away_team.get('record', 'N/A')}) @ {home_abbr}({home_team.get('record', 'N/A')})")
 
-                    # 3. Diffuseurs
                     tv_list = g.get('tvBroadcasts', [])
                     ca_tv = [tv['network'] for tv in tv_list if tv['countryCode'] == 'CA']
-                    tv_str = f"📺 {', '.join(ca_tv)}" if ca_tv else "📺 Heure/Poste à confirmer"
+                    if ca_tv: desc_parts.append(f"📺 {', '.join(ca_tv)}")
 
-                    full_desc = " | ".join(desc_parts) + "\n" + tv_str
-                    
                     games.append({
-                        "league": "NHL 🏒",
                         "title": f"{away_abbr} @ {home_abbr}",
-                        "desc": full_desc,
+                        "desc": " | ".join(desc_parts),
                         "start": start_utc,
                         "is_tbd": is_tbd,
                         "priority": min(RANKING.index(home_abbr) if home_abbr in RANKING else 99, 
@@ -92,37 +64,46 @@ def generate_xml(all_games):
 
     now = datetime.now(pytz.UTC)
     current_time = now
+    tz_quebec = pytz.timezone('America/Toronto')
 
-    for i, game in enumerate(all_games):
-        # Bloc d'attente
+    # Filtrer pour n'avoir que les matchs avec une heure confirmée pour les blocs de programme
+    confirmed_games = [g for g in all_games if not g['is_tbd']]
+
+    for i, game in enumerate(confirmed_games):
+        # Bloc d'attente entre les matchs
         if game['start'] > current_time:
             prog_wait = ET.SubElement(root, "programme", 
                                      start=current_time.strftime("%Y%m%d%H%M%S +0000"), 
                                      stop=game['start'].strftime("%Y%m%d%H%M%S +0000"), 
                                      channel="Sports.Perso")
+            ET.SubElement(prog_wait, "title").text = f"⏳ Prochain : {game['title']}"
             
-            # Titre du bloc d'attente
-            wait_title = f"⏳ Prochain : {game['title']}"
-            if game['is_tbd']: wait_title += " (TBD)"
-            ET.SubElement(prog_wait, "title").text = wait_title
-            
-            # On liste les prochains matchs dans la description
+            # Liste exhaustive (incluant les TBD) dans la description du bloc d'attente
             future_list = []
-            for f in all_games[i:]:
-                f_time = f['start'].astimezone(pytz.timezone('America/Toronto')).strftime('%d/%m %H:%M')
-                future_list.append(f"• {f_time} : {f['title']}")
-            ET.SubElement(prog_wait, "desc").text = "\n".join(future_list)
-
-        # Bloc Match
-        stop = game['start'] + timedelta(hours=3, minutes=30)
-        prog = ET.SubElement(root, "programme", start=game['start'].strftime("%Y%m%d%H%M%S +0000"), stop=stop.strftime("%Y%m%d%H%M%S +0000"), channel="Sports.Perso")
-        
-        display_title = f"{game['league']} | {game['title']}"
-        if game['is_tbd']: display_title += " (HEURE TBD)"
+            for f in all_games:
+                if f['start'] >= current_time:
+                    f_local = f['start'].astimezone(tz_quebec)
+                    time_label = "TBD" if f['is_tbd'] else f_local.strftime('%H:%M')
+                    future_list.append(f"• {f_local.strftime('%d/%m')} {time_label} : {f['title']}")
             
-        ET.SubElement(prog, "title").text = display_title
+            ET.SubElement(prog_wait, "desc").text = "CALENDRIER À VENIR :\n" + "\n".join(future_list)
+
+        # Bloc du Match (Heure confirmée seulement)
+        match_stop = game['start'] + timedelta(hours=3, minutes=30)
+        prog = ET.SubElement(root, "programme", 
+                             start=game['start'].strftime("%Y%m%d%H%M%S +0000"), 
+                             stop=match_stop.strftime("%Y%m%d%H%M%S +0000"), 
+                             channel="Sports.Perso")
+        ET.SubElement(prog, "title").text = f"🏒 {game['title']}"
         ET.SubElement(prog, "desc").text = game['desc']
-        current_time = stop
+        current_time = match_stop
+
+    # Si aucun match confirmé n'est trouvé, on crée un bloc "Calendrier" permanent
+    if not confirmed_games:
+        prog = ET.SubElement(root, "programme", start=now.strftime("%Y%m%d%H%M%S +0000"), stop=(now + timedelta(hours=24)).strftime("%Y%m%d%H%M%S +0000"), channel="Sports.Perso")
+        ET.SubElement(prog, "title").text = "📅 Calendrier NHL (Heures à confirmer)"
+        future_list = [f"• {f['start'].astimezone(tz_quebec).strftime('%d/%m')} TBD : {f['title']}" for f in all_games]
+        ET.SubElement(prog, "desc").text = "\n".join(future_list) if future_list else "Aucun match prévu."
 
     tree = ET.ElementTree(root)
     ET.indent(tree)
