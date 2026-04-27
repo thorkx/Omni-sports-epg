@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv>
   <channel id="Sports.Perso">
-    <display-name>Omni Sports Debug</display-name>
+    <display-name>Mon Omni-Sports</display-name>
   </channel>
   <programme start="20260427230000 +0000" stop="20260428030000 +0000" channel="Sports.Perso">
-    <title>🏒 AWAY @ HOME</title>
-    <desc>Match NHL - AWAY contre HOME</desc>
+    <title>🏒 PHI @ PIT</title>
+    <desc>Match 5 - 1st Round</desc>
   </programme>
   <programme start="20260428013000 +0000" stop="20260428053000 +0000" channel="Sports.Perso">
-    <title>🏒 AWAY @ HOME</title>
-    <desc>Match NHL - AWAY contre HOME</desc>
+    <title>🏒 VGK @ UTA</title>
+    <desc>Match 4 - 1st Round</desc>
   </programme>
 </tv>
