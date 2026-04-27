@@ -3,9 +3,9 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260427193456 +0000" stop="20260427230000 +0000" channel="Sports.Perso">
+  <programme start="20260427193807 +0000" stop="20260427230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : PHI @ PIT</title>
-    <desc>CALENDRIER DE LA SEMAINE :
+    <desc>CALENDRIER :
 • 27/04 19:00 : PHI @ PIT
 • 27/04 21:30 : VGK @ UTA
 • 29/04 12:00 : UTA @ VGK
@@ -27,7 +27,7 @@
   </programme>
   <programme start="20260428050000 +0000" stop="20260429160000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : UTA @ VGK</title>
-    <desc>CALENDRIER DE LA SEMAINE :
+    <desc>CALENDRIER :
 • 29/04 12:00 : UTA @ VGK
 • 29/04 12:00 : PIT @ PHI
 • 29/04 19:00 : MTL @ TBL
@@ -47,7 +47,7 @@
   </programme>
   <programme start="20260429193000 +0000" stop="20260429230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ TBL</title>
-    <desc>CALENDRIER DE LA SEMAINE :
+    <desc>CALENDRIER :
 • 29/04 19:00 : MTL @ TBL
 • 01/05 12:00 : TBL @ MTL
 • 01/05 12:00 : VGK @ UTA
@@ -61,7 +61,7 @@
   </programme>
   <programme start="20260430023000 +0000" stop="20260501160000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : TBL @ MTL</title>
-    <desc>CALENDRIER DE LA SEMAINE :
+    <desc>CALENDRIER :
 • 01/05 12:00 : TBL @ MTL
 • 01/05 12:00 : VGK @ UTA
 • 02/05 12:00 : PHI @ PIT
@@ -78,7 +78,7 @@
   </programme>
   <programme start="20260501193000 +0000" stop="20260502160000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : PHI @ PIT</title>
-    <desc>CALENDRIER DE LA SEMAINE :
+    <desc>CALENDRIER :
 • 02/05 12:00 : PHI @ PIT
 • 03/05 12:00 : MTL @ TBL
 • 03/05 12:00 : UTA @ VGK</desc>
@@ -89,7 +89,7 @@
   </programme>
   <programme start="20260502193000 +0000" stop="20260503160000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ TBL</title>
-    <desc>CALENDRIER DE LA SEMAINE :
+    <desc>CALENDRIER :
 • 03/05 12:00 : MTL @ TBL
 • 03/05 12:00 : UTA @ VGK</desc>
   </programme>
