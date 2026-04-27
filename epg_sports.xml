@@ -3,8 +3,8 @@
 	<channel id="Sports.Perso">
 		<display-name>Mon Omni-Sports</display-name>
 	</channel>
-	<programme start="20260427154422 +0000" stop="20260428154422 +0000" channel="Sports.Perso">
-		<title>📅 Pas de match prévu aujourd'hui</title>
-		<desc>Tes équipes favorites sont au repos. Profites-en pour dormir !</desc>
+	<programme start="20260427154832 +0000" stop="20260428154832 +0000" channel="Sports.Perso">
+		<title>📅 Pas de match pour MTL/COL/TOR</title>
+		<desc>Vérifie tes abréviations si un match devrait être là.</desc>
 	</programme>
 </tv>
