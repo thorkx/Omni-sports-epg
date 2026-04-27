@@ -3,22 +3,97 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260427163752 +0000" stop="20260427230000 +0000" channel="Sports.Perso">
+  <programme start="20260427164433 +0000" stop="20260427230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : PHI @ PIT</title>
-    <desc>PRÉVIEW : (PIT 1-3 PHI) | 📺 SN, SN360, TVAS
-
-🏒 ENJEUX : PHI a le momentum avec l'avance dans la série. À SURVEILLER : Porter Martone (PHI) a déjà 2 buts dans cette série. Evgeni Malkin (PIT) a déjà 2 buts dans cette série. Blessures : Consultez les rapports de dernière minute.</desc>
+    <desc>• 27/04 19:00 : PHI @ PIT
+• 27/04 21:30 : VGK @ UTA
+• 29/04 12:00 : MTL @ TBL
+• 29/04 12:00 : UTA @ VGK
+• 29/04 12:00 : PIT @ PHI
+• 01/05 12:00 : TBL @ MTL
+• 01/05 12:00 : VGK @ UTA
+• 02/05 12:00 : PHI @ PIT
+• 03/05 12:00 : MTL @ TBL
+• 03/05 12:00 : UTA @ VGK</desc>
   </programme>
   <programme start="20260427230000 +0000" stop="20260428023000 +0000" channel="Sports.Perso">
     <title>NHL 🏒 | PHI @ PIT</title>
-    <desc>(PIT 1-3 PHI) | 📺 SN, SN360, TVAS
-
-🏒 ENJEUX : PHI a le momentum avec l'avance dans la série. À SURVEILLER : Porter Martone (PHI) a déjà 2 buts dans cette série. Evgeni Malkin (PIT) a déjà 2 buts dans cette série. Blessures : Consultez les rapports de dernière minute.</desc>
+    <desc>SÉRIES : Match #5 (PIT 1-3 PHI) | Dernier match: Voir les faits saillants récents.
+📺 SN, SN360, TVAS</desc>
   </programme>
   <programme start="20260428013000 +0000" stop="20260428050000 +0000" channel="Sports.Perso">
     <title>NHL 🏒 | VGK @ UTA</title>
-    <desc>(VGK 1-2 UTA) | 📺 CBC, SN, SN360, TVAS
-
-🏒 ENJEUX : UTA a le momentum avec l'avance dans la série. À SURVEILLER : Mark Stone (VGK) a déjà 2 buts dans cette série. Dylan Guenther (UTA) a déjà 2 buts dans cette série. Blessures : Consultez les rapports de dernière minute.</desc>
+    <desc>SÉRIES : Match #4 (VGK 1-2 UTA) | Dernier match: Voir les faits saillants récents.
+📺 CBC, SN, SN360, TVAS</desc>
+  </programme>
+  <programme start="20260428050000 +0000" stop="20260429160000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : MTL @ TBL</title>
+    <desc>• 29/04 12:00 : MTL @ TBL
+• 29/04 12:00 : UTA @ VGK
+• 29/04 12:00 : PIT @ PHI
+• 01/05 12:00 : TBL @ MTL
+• 01/05 12:00 : VGK @ UTA
+• 02/05 12:00 : PHI @ PIT
+• 03/05 12:00 : MTL @ TBL
+• 03/05 12:00 : UTA @ VGK</desc>
+  </programme>
+  <programme start="20260429160000 +0000" stop="20260429193000 +0000" channel="Sports.Perso">
+    <title>NHL 🏒 | MTL @ TBL</title>
+    <desc>SÉRIES : Match #5 (TBL 2-2 MTL) | Dernier match: Voir les faits saillants récents.
+📺 Heure/Poste à confirmer</desc>
+  </programme>
+  <programme start="20260429160000 +0000" stop="20260429193000 +0000" channel="Sports.Perso">
+    <title>NHL 🏒 | UTA @ VGK</title>
+    <desc>SÉRIES : Match #5 (VGK 1-2 UTA) | Dernier match: Voir les faits saillants récents.
+📺 Heure/Poste à confirmer</desc>
+  </programme>
+  <programme start="20260429160000 +0000" stop="20260429193000 +0000" channel="Sports.Perso">
+    <title>NHL 🏒 | PIT @ PHI</title>
+    <desc>SÉRIES : Match #6 (PIT 1-3 PHI) | Dernier match: Voir les faits saillants récents.
+📺 Heure/Poste à confirmer</desc>
+  </programme>
+  <programme start="20260429193000 +0000" stop="20260501160000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : TBL @ MTL</title>
+    <desc>• 01/05 12:00 : TBL @ MTL
+• 01/05 12:00 : VGK @ UTA
+• 02/05 12:00 : PHI @ PIT
+• 03/05 12:00 : MTL @ TBL
+• 03/05 12:00 : UTA @ VGK</desc>
+  </programme>
+  <programme start="20260501160000 +0000" stop="20260501193000 +0000" channel="Sports.Perso">
+    <title>NHL 🏒 | TBL @ MTL</title>
+    <desc>SÉRIES : Match #6 (TBL 2-2 MTL) | Dernier match: Voir les faits saillants récents.
+📺 Heure/Poste à confirmer</desc>
+  </programme>
+  <programme start="20260501160000 +0000" stop="20260501193000 +0000" channel="Sports.Perso">
+    <title>NHL 🏒 | VGK @ UTA</title>
+    <desc>SÉRIES : Match #6 (VGK 1-2 UTA) | Dernier match: Voir les faits saillants récents.
+📺 Heure/Poste à confirmer</desc>
+  </programme>
+  <programme start="20260501193000 +0000" stop="20260502160000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : PHI @ PIT</title>
+    <desc>• 02/05 12:00 : PHI @ PIT
+• 03/05 12:00 : MTL @ TBL
+• 03/05 12:00 : UTA @ VGK</desc>
+  </programme>
+  <programme start="20260502160000 +0000" stop="20260502193000 +0000" channel="Sports.Perso">
+    <title>NHL 🏒 | PHI @ PIT</title>
+    <desc>SÉRIES : Match #7 (PIT 1-3 PHI) | Dernier match: Voir les faits saillants récents.
+📺 Heure/Poste à confirmer</desc>
+  </programme>
+  <programme start="20260502193000 +0000" stop="20260503160000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : MTL @ TBL</title>
+    <desc>• 03/05 12:00 : MTL @ TBL
+• 03/05 12:00 : UTA @ VGK</desc>
+  </programme>
+  <programme start="20260503160000 +0000" stop="20260503193000 +0000" channel="Sports.Perso">
+    <title>NHL 🏒 | MTL @ TBL</title>
+    <desc>SÉRIES : Match #7 (TBL 2-2 MTL) | Dernier match: Voir les faits saillants récents.
+📺 Heure/Poste à confirmer</desc>
+  </programme>
+  <programme start="20260503160000 +0000" stop="20260503193000 +0000" channel="Sports.Perso">
+    <title>NHL 🏒 | UTA @ VGK</title>
+    <desc>SÉRIES : Match #7 (VGK 1-2 UTA) | Dernier match: Voir les faits saillants récents.
+📺 Heure/Poste à confirmer</desc>
   </programme>
 </tv>
