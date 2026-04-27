@@ -3,8 +3,8 @@
 	<channel id="Sports.Perso">
 		<display-name>Mon Omni-Sports</display-name>
 	</channel>
-	<programme start="20260427160815 +0000" stop="20260428160815 +0000" channel="Sports.Perso">
-		<title>📅 Aucun match prévu</title>
-		<desc>Vérifiez les mots-clés dans le script.</desc>
+	<programme start="20260427161216 +0000" stop="20260428161216 +0000" channel="Sports.Perso">
+		<title>📅 Aucun match trouvé (Debug Utah)</title>
+		<desc>Vérifie les logs GitHub Actions pour voir la liste des abréviations.</desc>
 	</programme>
 </tv>
