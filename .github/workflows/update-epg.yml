@@ -24,7 +24,7 @@ jobs:
         run: find . -maxdepth 2 -not -path '*/.*'
 
       - name: Run script
-        run: python ./generate_epg.py
+        run: python generate-epg.py
 
       - name: Commit and push if changed
         run: |
