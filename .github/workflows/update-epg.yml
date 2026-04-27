@@ -19,6 +19,9 @@ jobs:
 
       - name: Install dependencies
         run: pip install requests pytz
+        
+      - name: Check structure
+        run: find . -maxdepth 2 -not -path '*/.*'
 
       - name: Run script
         run: python ./generate_epg.py
