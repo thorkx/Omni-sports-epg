@@ -4,35 +4,42 @@ import pytz
 import xml.etree.ElementTree as ET
 
 # ==========================================
-# CONFIGURATION
+# CONFIGURATION - MOTS CLÉS (Plus fiable que les codes)
 # ==========================================
-TEAMS = {
-    "NHL": ["MTL", "COL"], 
-    "NBA": ["TOR"]
+# Le script cherchera si ces mots sont présents dans le nom des équipes
+MY_KEYWORDS = {
+    "NHL": ["CANADIENS", "MONTREAL", "MTL", "AVALANCHE", "COLORADO", "COL"],
+    "NBA": ["RAPTORS", "TORONTO", "TOR"]
 }
+
+def is_my_team(team_name, league):
+    if not team_name: return False
+    name_upper = team_name.upper()
+    return any(keyword in name_upper for keyword in MY_KEYWORDS[league])
 
 def fetch_nhl_week():
     print("--- Scraping NHL Weekly Data ---")
     games = []
-    # Cet URL donne les matchs de la semaine en cours
     url = "https://api-web.nhle.com/v1/schedule/now"
     try:
-        response = requests.get(url, timeout=10)
-        data = response.json()
-        
+        data = requests.get(url, timeout=10).json()
         for week in data.get('gameWeek', []):
             for game in week.get('games', []):
-                home = game['homeTeam']['abbreviation'].upper()
-                away = game['awayTeam']['abbreviation'].upper()
+                # On récupère le nom complet ET l'abréviation pour être sûr
+                home_name = game['homeTeam'].get('default', "")
+                home_abbr = game['homeTeam'].get('abbreviation', "")
+                away_name = game['awayTeam'].get('default', "")
+                away_abbr = game['awayTeam'].get('abbreviation', "")
                 
-                if home in TEAMS["NHL"] or away in TEAMS["NHL"]:
-                    print(f"✅ Match NHL trouvé : {away} @ {home} le {game['gameDate']}")
-                    start_utc = datetime.fromisoformat(game['startTimeUTC'].replace('Z', '+00:00'))
+                if is_my_team(home_name, "NHL") or is_my_team(home_abbr, "NHL") or \
+                   is_my_team(away_name, "NHL") or is_my_team(away_abbr, "NHL"):
                     
+                    print(f"✅ Match NHL trouvé : {away_abbr} @ {home_abbr}")
+                    start_utc = datetime.fromisoformat(game['startTimeUTC'].replace('Z', '+00:00'))
                     games.append({
                         "league": "NHL 🏒",
-                        "title": f"{away} @ {home}",
-                        "desc": f"Match de saison/playoffs NHL à {game.get('venue', {}).get('default', 'l''aréna')}",
+                        "title": f"{away_abbr} @ {home_abbr}",
+                        "desc": f"Match NHL - {game.get('seriesSummary', {}).get('seriesStatusShort', 'Saison')}",
                         "start": start_utc
                     })
     except Exception as e:
@@ -42,23 +49,25 @@ def fetch_nhl_week():
 def fetch_nba_week():
     print("--- Scraping NBA Weekly Data ---")
     games = []
-    # La NBA est plus complexe par jour, on va donc itérer sur les 7 prochains jours
-    base_url = "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
-    # Note: Pour une version simplifiée, on garde le scoreboard du jour. 
-    # Pour le calendrier complet NBA, l'API stats.nba est préférable mais nécessite des headers complexes.
+    # Note: L'API Scoreboard de la NBA est très limitée au "jour même"
+    url = "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
     try:
-        response = requests.get(base_url, timeout=10)
-        data = response.json()
+        data = requests.get(url, timeout=10).json()
         for game in data.get('scoreboard', {}).get('games', []):
-            home = game['homeTeam']['teamAbbreviation'].upper()
-            away = game['awayTeam']['teamAbbreviation'].upper()
+            home_name = game['homeTeam']['teamName']
+            home_abbr = game['homeTeam']['teamAbbreviation']
+            away_name = game['awayTeam']['teamName']
+            away_abbr = game['awayTeam']['teamAbbreviation']
             
-            if home in TEAMS["NBA"] or away in TEAMS["NBA"]:
+            if is_my_team(home_name, "NBA") or is_my_team(home_abbr, "NBA") or \
+               is_my_team(away_name, "NBA") or is_my_team(away_abbr, "NBA"):
+                
+                print(f"✅ Match NBA trouvé : {away_abbr} @ {home_abbr}")
                 start_utc = datetime.fromisoformat(game['gameEt'].replace('Z', '+00:00'))
                 games.append({
                     "league": "NBA 🏀",
-                    "title": f"{away} @ {home}",
-                    "desc": f"Match NBA - {game.get('gameStatusText', 'À venir')}",
+                    "title": f"{away_abbr} @ {home_abbr}",
+                    "desc": f"Match NBA - {game.get('gameStatusText', '')}",
                     "start": start_utc
                 })
     except Exception as e:
@@ -67,47 +76,41 @@ def fetch_nba_week():
 
 def generate_xml(all_games):
     all_games.sort(key=lambda x: x['start'])
-    print(f"--- Génération XML : {len(all_games)} match(s) au calendrier ---")
-    
     root = ET.Element("tv")
     channel = ET.SubElement(root, "channel", id="Sports.Perso")
     ET.SubElement(channel, "display-name").text = "Mon Omni-Sports"
 
     now = datetime.now(pytz.UTC)
+    current_time = now
 
     if not all_games:
-        # Bloc par défaut
         prog = ET.SubElement(root, "programme", 
                              start=now.strftime("%Y%m%d%H%M%S +0000"), 
                              stop=(now + timedelta(hours=24)).strftime("%Y%m%d%H%M%S +0000"), 
                              channel="Sports.Perso")
-        ET.SubElement(prog, "title").text = "📅 Aucun match cette semaine"
-        ET.SubElement(prog, "desc").text = "Repos complet pour vos équipes."
+        ET.SubElement(prog, "title").text = "📅 Aucun match prévu"
+        ET.SubElement(prog, "desc").text = "Vérifiez les mots-clés dans le script."
     else:
-        # LOGIQUE DE REMPLISSAGE (FILL GAPS)
-        # On crée un bloc "En attente" entre maintenant et le premier match
-        current_time = now
-        
         for game in all_games:
-            # Si le match est dans le futur, on remplit le vide avant
+            # On remplit le vide avant le match
             if game['start'] > current_time:
-                wait_prog = ET.SubElement(root, "programme", 
+                wait_stop = game['start']
+                prog_wait = ET.SubElement(root, "programme", 
                                          start=current_time.strftime("%Y%m%d%H%M%S +0000"), 
-                                         stop=game['start'].strftime("%Y%m%d%H%M%S +0000"), 
+                                         stop=wait_stop.strftime("%Y%m%d%H%M%S +0000"), 
                                          channel="Sports.Perso")
-                ET.SubElement(wait_prog, "title").text = f"⏳ Prochain : {game['title']}"
-                ET.SubElement(wait_prog, "desc").text = f"Le prochain rendez-vous {game['league']} est à {game['start'].astimezone(pytz.timezone('America/Toronto')).strftime('%H:%M')}"
+                ET.SubElement(prog_wait, "title").text = f"⏳ Prochain : {game['title']}"
+                ET.SubElement(prog_wait, "desc").text = f"Rendez-vous à {game['start'].astimezone(pytz.timezone('America/Toronto')).strftime('%H:%M')}"
 
-            # Le bloc du match lui-même
+            # Bloc du match
             match_stop = game['start'] + timedelta(hours=3, minutes=30)
-            prog = ET.SubElement(root, "programme", 
-                                 start=game['start'].strftime("%Y%m%d%H%M%S +0000"), 
-                                 stop=match_stop.strftime("%Y%m%d%H%M%S +0000"), 
-                                 channel="Sports.Perso")
-            ET.SubElement(prog, "title").text = f"{game['league']} | {game['title']}"
-            ET.SubElement(prog, "desc").text = game['desc']
+            prog_match = ET.SubElement(root, "programme", 
+                                      start=game['start'].strftime("%Y%m%d%H%M%S +0000"), 
+                                      stop=match_stop.strftime("%Y%m%d%H%M%S +0000"), 
+                                      channel="Sports.Perso")
+            ET.SubElement(prog_match, "title").text = f"{game['league']} | {game['title']}"
+            ET.SubElement(prog_match, "desc").text = game['desc']
             
-            # On avance le curseur de temps à la fin du match
             current_time = match_stop
 
     tree = ET.ElementTree(root)
@@ -115,6 +118,6 @@ def generate_xml(all_games):
     tree.write("epg_sports.xml", encoding="utf-8", xml_declaration=True)
 
 if __name__ == "__main__":
-    data = fetch_nhl_week() + fetch_nba_week()
-    generate_xml(data)
+    combined = fetch_nhl_week() + fetch_nba_week()
+    generate_xml(combined)
     
