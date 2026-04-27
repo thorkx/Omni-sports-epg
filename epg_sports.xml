@@ -1,2 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv><channel id="Sports.Perso"><display-name>Mon Omni-Sports</display-name></channel></tv>
+<tv>
+	<channel id="Sports.Perso">
+		<display-name>Mon Omni-Sports</display-name>
+	</channel>
+	<programme start="20260427154422 +0000" stop="20260428154422 +0000" channel="Sports.Perso">
+		<title>📅 Pas de match prévu aujourd'hui</title>
+		<desc>Tes équipes favorites sont au repos. Profites-en pour dormir !</desc>
+	</programme>
+</tv>
