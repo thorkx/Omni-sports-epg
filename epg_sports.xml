@@ -3,9 +3,9 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260427164857 +0000" stop="20260427230000 +0000" channel="Sports.Perso">
+  <programme start="20260427165207 +0000" stop="20260427230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : PHI @ PIT</title>
-    <desc>CALENDRIER À VENIR :
+    <desc>CALENDRIER DE LA SEMAINE :
 • 27/04 19:00 : PHI @ PIT
 • 27/04 21:30 : VGK @ UTA
 • 29/04 12:00 : MTL @ TBL
@@ -27,7 +27,7 @@
   </programme>
   <programme start="20260428050000 +0000" stop="20260429160000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ TBL</title>
-    <desc>CALENDRIER À VENIR :
+    <desc>CALENDRIER DE LA SEMAINE :
 • 29/04 12:00 : MTL @ TBL
 • 29/04 12:00 : UTA @ VGK
 • 29/04 12:00 : PIT @ PHI
@@ -51,7 +51,7 @@
   </programme>
   <programme start="20260429193000 +0000" stop="20260501160000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : TBL @ MTL</title>
-    <desc>CALENDRIER À VENIR :
+    <desc>CALENDRIER DE LA SEMAINE :
 • 01/05 12:00 : TBL @ MTL
 • 01/05 12:00 : VGK @ UTA
 • 02/05 12:00 : PHI @ PIT
@@ -68,7 +68,7 @@
   </programme>
   <programme start="20260501193000 +0000" stop="20260502160000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : PHI @ PIT</title>
-    <desc>CALENDRIER À VENIR :
+    <desc>CALENDRIER DE LA SEMAINE :
 • 02/05 12:00 : PHI @ PIT
 • 03/05 12:00 : MTL @ TBL
 • 03/05 12:00 : UTA @ VGK</desc>
@@ -79,7 +79,7 @@
   </programme>
   <programme start="20260502193000 +0000" stop="20260503160000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ TBL</title>
-    <desc>CALENDRIER À VENIR :
+    <desc>CALENDRIER DE LA SEMAINE :
 • 03/05 12:00 : MTL @ TBL
 • 03/05 12:00 : UTA @ VGK</desc>
   </programme>
