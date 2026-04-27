@@ -9,26 +9,31 @@ import xml.etree.ElementTree as ET
 RANKING = ["MTL", "COL", "UTA", "PHI", "PIT", "TOR"]
 
 def fetch_nhl_week():
-    print("--- Scraping NHL Weekly Data (Fix TBD Text) ---")
+    print("--- Scraping NHL Weekly Data (Robust TBD Detection) ---")
     games = []
     url = "https://api-web.nhle.com/v1/schedule/now"
     try:
-        data = requests.get(url, timeout=15).json()
+        r = requests.get(url, timeout=15)
+        data = r.json()
         
         for week in data.get('gameWeek', []):
             for g in week.get('games', []):
-                away_team = g.get('awayTeam', {})
-                home_team = g.get('homeTeam', {})
-                away_abbr = away_team.get('abbrev')
-                home_abbr = home_team.get('abbrev')
+                away_abbr = g.get('awayTeam', {}).get('abbrev')
+                home_abbr = g.get('homeTeam', {}).get('abbrev')
                 
                 if away_abbr in RANKING or home_abbr in RANKING:
                     start_str = g.get('startTimeUTC', "")
+                    # Conversion en objet datetime pour une analyse précise
                     start_utc = datetime.fromisoformat(start_str.replace('Z', '+00:00'))
                     
-                    # Détection stricte de l'heure temporaire
-                    is_tbd = "12:00:00Z" in start_str
+                    # DÉTECTION ROBUSTE : 
+                    # L'heure TBD de la NHL est TOUJOURS 12:00:00 UTC (8h00 AM EDT)
+                    # On vérifie l'heure et la minute sur l'objet datetime directement
+                    is_tbd = (start_utc.hour == 12 and start_utc.minute == 0)
                     
+                    if is_tbd:
+                        print(f"Match TBD détecté logiquement : {away_abbr} @ {home_abbr}")
+
                     # Description
                     desc_parts = []
                     game_type = g.get('gameType')
@@ -37,7 +42,9 @@ def fetch_nhl_week():
                         series_str = f"SÉRIES: ({series.get('topSeedTeamAbbrev')} {series.get('topSeedWins', 0)}-{series.get('bottomSeedWins', 0)} {series.get('bottomSeedTeamAbbrev')})"
                         desc_parts.append(series_str)
                     else:
-                        desc_parts.append(f"Fiche: {away_abbr}({away_team.get('record', 'N/A')}) @ {home_abbr}({home_team.get('record', 'N/A')})")
+                        away_rec = g.get('awayTeam', {}).get('record', 'N/A')
+                        home_rec = g.get('homeTeam', {}).get('record', 'N/A')
+                        desc_parts.append(f"Fiche: {away_abbr}({away_rec}) @ {home_abbr}({home_rec})")
 
                     tv_list = g.get('tvBroadcasts', [])
                     ca_tv = [tv['network'] for tv in tv_list if tv['countryCode'] == 'CA']
@@ -67,7 +74,7 @@ def generate_xml(all_games):
 
     confirmed_games = [g for g in all_games if not g['is_tbd']]
 
-    # Si aucun match n'est confirmé dans les prochaines 24h
+    # Cas où aucun match n'est confirmé (que des TBD)
     if not confirmed_games and all_games:
         prog = ET.SubElement(root, "programme", 
                              start=now.strftime("%Y%m%d%H%M%S +0000"), 
@@ -77,10 +84,9 @@ def generate_xml(all_games):
         future_list = []
         for f in all_games:
             f_local = f['start'].astimezone(tz_quebec)
-            # ICI: On force l'affichage TBD
             time_label = "TBD" if f['is_tbd'] else f_local.strftime('%H:%M')
             future_list.append(f"• {f_local.strftime('%d/%m')} {time_label} : {f['title']}")
-        ET.SubElement(prog, "desc").text = "Matchs à venir :\n" + "\n".join(future_list)
+        ET.SubElement(prog, "desc").text = "Prochains matchs :\n" + "\n".join(future_list)
     else:
         for i, game in enumerate(confirmed_games):
             # 1. Bloc d'attente
@@ -95,7 +101,6 @@ def generate_xml(all_games):
                 for f in all_games:
                     if f['start'] >= current_time:
                         f_local = f['start'].astimezone(tz_quebec)
-                        # ICI: Correction de l'affichage de l'heure
                         time_label = "TBD" if f['is_tbd'] else f_local.strftime('%H:%M')
                         future_list.append(f"• {f_local.strftime('%d/%m')} {time_label} : {f['title']}")
                 
@@ -118,3 +123,4 @@ def generate_xml(all_games):
 if __name__ == "__main__":
     data = fetch_nhl_week()
     generate_xml(data)
+    
