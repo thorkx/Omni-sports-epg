@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 RANKING = ["MTL", "COL", "UTA", "PHI", "PIT", "TOR"]
 
 def fetch_nhl_week():
-    print("--- Scraping NHL Weekly Data (Clean Version) ---")
+    print("--- Scraping NHL Weekly Data (TBD Filtered) ---")
     games = []
     url = "https://api-web.nhle.com/v1/schedule/now"
     try:
@@ -26,10 +26,10 @@ def fetch_nhl_week():
                     start_str = g.get('startTimeUTC', "")
                     start_utc = datetime.fromisoformat(start_str.replace('Z', '+00:00'))
                     
-                    # Détection de l'heure temporaire (12:00 UTC)
+                    # Détection de l'heure temporaire
                     is_tbd = "12:00:00Z" in start_str
                     
-                    # Construction de la description simple
+                    # Description minimaliste
                     desc_parts = []
                     game_type = g.get('gameType')
                     
@@ -38,7 +38,7 @@ def fetch_nhl_week():
                         series_str = f"SÉRIES: ({series.get('topSeedTeamAbbrev')} {series.get('topSeedWins', 0)}-{series.get('bottomSeedWins', 0)} {series.get('bottomSeedTeamAbbrev')})"
                         desc_parts.append(series_str)
                     else: # SAISON
-                        desc_parts.append(f"Record: {away_abbr}({away_team.get('record', 'N/A')}) @ {home_abbr}({home_team.get('record', 'N/A')})")
+                        desc_parts.append(f"Fiche: {away_abbr}({away_team.get('record', 'N/A')}) @ {home_abbr}({home_team.get('record', 'N/A')})")
 
                     tv_list = g.get('tvBroadcasts', [])
                     ca_tv = [tv['network'] for tv in tv_list if tv['countryCode'] == 'CA']
@@ -66,44 +66,46 @@ def generate_xml(all_games):
     current_time = now
     tz_quebec = pytz.timezone('America/Toronto')
 
-    # Filtrer pour n'avoir que les matchs avec une heure confirmée pour les blocs de programme
+    # Filtrage : Seuls les matchs confirmés créent un bloc de temps
     confirmed_games = [g for g in all_games if not g['is_tbd']]
 
-    for i, game in enumerate(confirmed_games):
-        # Bloc d'attente entre les matchs
-        if game['start'] > current_time:
-            prog_wait = ET.SubElement(root, "programme", 
-                                     start=current_time.strftime("%Y%m%d%H%M%S +0000"), 
-                                     stop=game['start'].strftime("%Y%m%d%H%M%S +0000"), 
-                                     channel="Sports.Perso")
-            ET.SubElement(prog_wait, "title").text = f"⏳ Prochain : {game['title']}"
-            
-            # Liste exhaustive (incluant les TBD) dans la description du bloc d'attente
-            future_list = []
-            for f in all_games:
-                if f['start'] >= current_time:
-                    f_local = f['start'].astimezone(tz_quebec)
-                    time_label = "TBD" if f['is_tbd'] else f_local.strftime('%H:%M')
-                    future_list.append(f"• {f_local.strftime('%d/%m')} {time_label} : {f['title']}")
-            
-            ET.SubElement(prog_wait, "desc").text = "CALENDRIER À VENIR :\n" + "\n".join(future_list)
-
-        # Bloc du Match (Heure confirmée seulement)
-        match_stop = game['start'] + timedelta(hours=3, minutes=30)
+    if not confirmed_games and all_games:
+        # Si aucun match n'est confirmé mais qu'il y a des matchs TBD
         prog = ET.SubElement(root, "programme", 
-                             start=game['start'].strftime("%Y%m%d%H%M%S +0000"), 
-                             stop=match_stop.strftime("%Y%m%d%H%M%S +0000"), 
+                             start=now.strftime("%Y%m%d%H%M%S +0000"), 
+                             stop=(now + timedelta(hours=24)).strftime("%Y%m%d%H%M%S +0000"), 
                              channel="Sports.Perso")
-        ET.SubElement(prog, "title").text = f"🏒 {game['title']}"
-        ET.SubElement(prog, "desc").text = game['desc']
-        current_time = match_stop
-
-    # Si aucun match confirmé n'est trouvé, on crée un bloc "Calendrier" permanent
-    if not confirmed_games:
-        prog = ET.SubElement(root, "programme", start=now.strftime("%Y%m%d%H%M%S +0000"), stop=(now + timedelta(hours=24)).strftime("%Y%m%d%H%M%S +0000"), channel="Sports.Perso")
         ET.SubElement(prog, "title").text = "📅 Calendrier NHL (Heures à confirmer)"
         future_list = [f"• {f['start'].astimezone(tz_quebec).strftime('%d/%m')} TBD : {f['title']}" for f in all_games]
-        ET.SubElement(prog, "desc").text = "\n".join(future_list) if future_list else "Aucun match prévu."
+        ET.SubElement(prog, "desc").text = "Matchs prévus cette semaine :\n" + "\n".join(future_list)
+    else:
+        for i, game in enumerate(confirmed_games):
+            # 1. Bloc d'attente (contient la liste de TOUS les matchs, incluant TBD)
+            if game['start'] > current_time:
+                prog_wait = ET.SubElement(root, "programme", 
+                                         start=current_time.strftime("%Y%m%d%H%M%S +0000"), 
+                                         stop=game['start'].strftime("%Y%m%d%H%M%S +0000"), 
+                                         channel="Sports.Perso")
+                ET.SubElement(prog_wait, "title").text = f"⏳ Prochain : {game['title']}"
+                
+                future_list = []
+                for f in all_games:
+                    if f['start'] >= current_time:
+                        f_local = f['start'].astimezone(tz_quebec)
+                        time_label = "TBD" if f['is_tbd'] else f_local.strftime('%H:%M')
+                        future_list.append(f"• {f_local.strftime('%d/%m')} {time_label} : {f['title']}")
+                
+                ET.SubElement(prog_wait, "desc").text = "CALENDRIER DE LA SEMAINE :\n" + "\n".join(future_list)
+
+            # 2. Bloc du Match confirmé
+            match_stop = game['start'] + timedelta(hours=3, minutes=30)
+            prog_match = ET.SubElement(root, "programme", 
+                                      start=game['start'].strftime("%Y%m%d%H%M%S +0000"), 
+                                      stop=match_stop.strftime("%Y%m%d%H%M%S +0000"), 
+                                      channel="Sports.Perso")
+            ET.SubElement(prog_match, "title").text = f"🏒 {game['title']}"
+            ET.SubElement(prog_match, "desc").text = game['desc']
+            current_time = match_stop
 
     tree = ET.ElementTree(root)
     ET.indent(tree)
