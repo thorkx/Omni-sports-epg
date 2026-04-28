@@ -3,19 +3,6 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260428225445 +0000" stop="20260428233000 +0000" channel="Sports.Perso">
-    <title>⏳ Prochain : BOS @ BUF</title>
-    <desc>CALENDRIER :
-• 28/04 19:30 : BOS @ BUF
-• 29/04 19:00 : MTL @ TBL
-• 29/04 22:00 : UTA @ VGK
-• 01/05 TBD : TBL @ MTL
-• 01/05 TBD : VGK @ UTA
-• 01/05 TBD : BUF @ BOS
-• 03/05 TBD : MTL @ TBL
-• 03/05 TBD : UTA @ VGK
-• 03/05 TBD : BOS @ BUF</desc>
-  </programme>
   <programme start="20260428233000 +0000" stop="20260429030000 +0000" channel="Sports.Perso">
     <title>🏒 BOS @ BUF</title>
     <desc>SÉRIES: (BUF 3-1 BOS) | 📺 SN, TVAS</desc>
