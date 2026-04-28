@@ -3,11 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260428013000 +0000" stop="20260428050000 +0000" channel="Sports.Perso">
-    <title>🏒 VGK @ UTA</title>
-    <desc>SÉRIES: (VGK 2-2 UTA) | 📺 CBC, SN, SN360, TVAS</desc>
-  </programme>
-  <programme start="20260428050000 +0000" stop="20260428233000 +0000" channel="Sports.Perso">
+  <programme start="20260428160906 +0000" stop="20260428233000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : BOS @ BUF</title>
     <desc>CALENDRIER :
 • 28/04 19:30 : BOS @ BUF
