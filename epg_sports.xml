@@ -3,20 +3,6 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260427235133 +0000" stop="20260428013000 +0000" channel="Sports.Perso">
-    <title>⏳ Prochain : VGK @ UTA</title>
-    <desc>CALENDRIER :
-• 27/04 21:30 : VGK @ UTA
-• 28/04 19:30 : BOS @ BUF
-• 29/04 TBD : UTA @ VGK
-• 29/04 19:00 : MTL @ TBL
-• 01/05 TBD : TBL @ MTL
-• 01/05 TBD : VGK @ UTA
-• 01/05 TBD : BUF @ BOS
-• 03/05 TBD : MTL @ TBL
-• 03/05 TBD : UTA @ VGK
-• 03/05 TBD : BOS @ BUF</desc>
-  </programme>
   <programme start="20260428013000 +0000" stop="20260428050000 +0000" channel="Sports.Perso">
     <title>🏒 VGK @ UTA</title>
     <desc>SÉRIES: (VGK 1-2 UTA) | 📺 CBC, SN, SN360, TVAS</desc>
@@ -25,8 +11,8 @@
     <title>⏳ Prochain : BOS @ BUF</title>
     <desc>CALENDRIER :
 • 28/04 19:30 : BOS @ BUF
-• 29/04 TBD : UTA @ VGK
 • 29/04 19:00 : MTL @ TBL
+• 29/04 22:00 : UTA @ VGK
 • 01/05 TBD : TBL @ MTL
 • 01/05 TBD : VGK @ UTA
 • 01/05 TBD : BUF @ BOS
@@ -41,8 +27,8 @@
   <programme start="20260429030000 +0000" stop="20260429230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ TBL</title>
     <desc>CALENDRIER :
-• 29/04 TBD : UTA @ VGK
 • 29/04 19:00 : MTL @ TBL
+• 29/04 22:00 : UTA @ VGK
 • 01/05 TBD : TBL @ MTL
 • 01/05 TBD : VGK @ UTA
 • 01/05 TBD : BUF @ BOS
@@ -53,5 +39,9 @@
   <programme start="20260429230000 +0000" stop="20260430023000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ TBL</title>
     <desc>SÉRIES: (TBL 2-2 MTL) | 📺 CBC, SN, TVAS</desc>
+  </programme>
+  <programme start="20260430020000 +0000" stop="20260430053000 +0000" channel="Sports.Perso">
+    <title>🏒 UTA @ VGK</title>
+    <desc>SÉRIES: (VGK 1-2 UTA) | 📺 TVAS</desc>
   </programme>
 </tv>
