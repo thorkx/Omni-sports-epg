@@ -3,15 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260429230000 +0000" stop="20260430023000 +0000" channel="Sports.Perso">
-    <title>🏒 MTL @ TBL</title>
-    <desc>SÉRIES: (TBL 2-3 MTL) | 📺 CBC, SN, TVAS</desc>
-  </programme>
-  <programme start="20260430020000 +0000" stop="20260430053000 +0000" channel="Sports.Perso">
-    <title>🏒 UTA @ VGK</title>
-    <desc>SÉRIES: (VGK 3-2 UTA) | 📺 SN, SN360, TVAS</desc>
-  </programme>
-  <programme start="20260430053000 +0000" stop="20260501230000 +0000" channel="Sports.Perso">
+  <programme start="20260430171737 +0000" stop="20260501230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : TBL @ MTL</title>
     <desc>CALENDRIER :
 • 01/05 19:00 : TBL @ MTL
