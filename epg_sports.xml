@@ -13,6 +13,20 @@
   </programme>
   <programme start="20260502020000 +0000" stop="20260502053000 +0000" channel="Sports.Perso">
     <title>🏒 VGK @ UTA</title>
-    <desc>SÉRIES: (VGK 3-2 UTA) | 📺 SN, SN360, TVAS2</desc>
+    <desc>SÉRIES: (VGK 4-2 UTA) | 📺 SN, SN360, TVAS2</desc>
+  </programme>
+  <programme start="20260502053000 +0000" stop="20260503220000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : MTL @ TBL</title>
+    <desc>CALENDRIER :
+• 03/05 18:00 : MTL @ TBL
+• 03/05 21:00 : MIN @ COL</desc>
+  </programme>
+  <programme start="20260503220000 +0000" stop="20260504013000 +0000" channel="Sports.Perso">
+    <title>🏒 MTL @ TBL</title>
+    <desc>SÉRIES: (TBL 3-3 MTL) | 📺 CBC, SN, TVAS</desc>
+  </programme>
+  <programme start="20260504010000 +0000" stop="20260504043000 +0000" channel="Sports.Perso">
+    <title>🏒 MIN @ COL</title>
+    <desc>SÉRIES: (COL 0-0 MIN) | 📺 CBC, SN, SN360, TVAS</desc>
   </programme>
 </tv>
