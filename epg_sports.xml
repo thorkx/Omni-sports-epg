@@ -3,14 +3,15 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260503154323 +0000" stop="20260503220000 +0000" channel="Sports.Perso">
+  <programme start="20260503164523 +0000" stop="20260503220000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ TBL</title>
     <desc>CALENDRIER :
 • 03/05 18:00 : MTL @ TBL
 • 03/05 21:00 : MIN @ COL
 • 05/05 20:00 : MIN @ COL
 • 06/05 19:00 : TBD @ BUF
-• 08/05 19:00 : TBD @ BUF</desc>
+• 08/05 19:00 : TBD @ BUF
+• 09/05 21:00 : COL @ MIN</desc>
   </programme>
   <programme start="20260503220000 +0000" stop="20260504013000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ TBL</title>
@@ -25,7 +26,8 @@
     <desc>CALENDRIER :
 • 05/05 20:00 : MIN @ COL
 • 06/05 19:00 : TBD @ BUF
-• 08/05 19:00 : TBD @ BUF</desc>
+• 08/05 19:00 : TBD @ BUF
+• 09/05 21:00 : COL @ MIN</desc>
   </programme>
   <programme start="20260506000000 +0000" stop="20260506033000 +0000" channel="Sports.Perso">
     <title>🏒 MIN @ COL</title>
@@ -35,7 +37,8 @@
     <title>⏳ Prochain : TBD @ BUF</title>
     <desc>CALENDRIER :
 • 06/05 19:00 : TBD @ BUF
-• 08/05 19:00 : TBD @ BUF</desc>
+• 08/05 19:00 : TBD @ BUF
+• 09/05 21:00 : COL @ MIN</desc>
   </programme>
   <programme start="20260506230000 +0000" stop="20260507023000 +0000" channel="Sports.Perso">
     <title>🏒 TBD @ BUF</title>
@@ -44,10 +47,20 @@
   <programme start="20260507023000 +0000" stop="20260508230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : TBD @ BUF</title>
     <desc>CALENDRIER :
-• 08/05 19:00 : TBD @ BUF</desc>
+• 08/05 19:00 : TBD @ BUF
+• 09/05 21:00 : COL @ MIN</desc>
   </programme>
   <programme start="20260508230000 +0000" stop="20260509023000 +0000" channel="Sports.Perso">
     <title>🏒 TBD @ BUF</title>
     <desc>SÉRIES: (BUF 0-0 TBD)</desc>
+  </programme>
+  <programme start="20260509023000 +0000" stop="20260510010000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : COL @ MIN</title>
+    <desc>CALENDRIER :
+• 09/05 21:00 : COL @ MIN</desc>
+  </programme>
+  <programme start="20260510010000 +0000" stop="20260510043000 +0000" channel="Sports.Perso">
+    <title>🏒 COL @ MIN</title>
+    <desc>SÉRIES: (COL 0-0 MIN) | 📺 CBC, SN, SN1, TVAS</desc>
   </programme>
 </tv>
