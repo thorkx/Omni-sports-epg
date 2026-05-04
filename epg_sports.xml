@@ -9,7 +9,7 @@
   </programme>
   <programme start="20260504010000 +0000" stop="20260504043000 +0000" channel="Sports.Perso">
     <title>🏒 MIN @ COL</title>
-    <desc>SÉRIES: (COL 0-0 MIN) | 📺 CBC, SN, SN360, TVAS</desc>
+    <desc>SÉRIES: (COL 1-0 MIN) | 📺 CBC, SN, SN360, TVAS</desc>
   </programme>
   <programme start="20260504043000 +0000" stop="20260506000000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MIN @ COL</title>
@@ -21,7 +21,7 @@
   </programme>
   <programme start="20260506000000 +0000" stop="20260506033000 +0000" channel="Sports.Perso">
     <title>🏒 MIN @ COL</title>
-    <desc>SÉRIES: (COL 0-0 MIN) | 📺 CBC, SN, TVAS</desc>
+    <desc>SÉRIES: (COL 1-0 MIN) | 📺 CBC, SN, TVAS</desc>
   </programme>
   <programme start="20260506033000 +0000" stop="20260506230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ BUF</title>
@@ -51,6 +51,6 @@
   </programme>
   <programme start="20260510010000 +0000" stop="20260510043000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ MIN</title>
-    <desc>SÉRIES: (COL 0-0 MIN) | 📺 CBC, SN, SN1, TVAS</desc>
+    <desc>SÉRIES: (COL 1-0 MIN) | 📺 CBC, SN, SN1, TVAS</desc>
   </programme>
 </tv>
