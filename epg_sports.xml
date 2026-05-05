@@ -3,14 +3,15 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260505141531 +0000" stop="20260506000000 +0000" channel="Sports.Perso">
+  <programme start="20260505162217 +0000" stop="20260506000000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MIN @ COL</title>
     <desc>CALENDRIER :
 • 05/05 20:00 : MIN @ COL
 • 06/05 19:00 : MTL @ BUF
 • 08/05 19:00 : MTL @ BUF
 • 09/05 21:00 : COL @ MIN
-• 10/05 19:00 : BUF @ MTL</desc>
+• 10/05 19:00 : BUF @ MTL
+• 11/05 TBD : COL @ MIN</desc>
   </programme>
   <programme start="20260506000000 +0000" stop="20260506033000 +0000" channel="Sports.Perso">
     <title>🏒 MIN @ COL</title>
@@ -22,7 +23,8 @@
 • 06/05 19:00 : MTL @ BUF
 • 08/05 19:00 : MTL @ BUF
 • 09/05 21:00 : COL @ MIN
-• 10/05 19:00 : BUF @ MTL</desc>
+• 10/05 19:00 : BUF @ MTL
+• 11/05 TBD : COL @ MIN</desc>
   </programme>
   <programme start="20260506230000 +0000" stop="20260507023000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ BUF</title>
@@ -33,7 +35,8 @@
     <desc>CALENDRIER :
 • 08/05 19:00 : MTL @ BUF
 • 09/05 21:00 : COL @ MIN
-• 10/05 19:00 : BUF @ MTL</desc>
+• 10/05 19:00 : BUF @ MTL
+• 11/05 TBD : COL @ MIN</desc>
   </programme>
   <programme start="20260508230000 +0000" stop="20260509023000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ BUF</title>
@@ -43,7 +46,8 @@
     <title>⏳ Prochain : COL @ MIN</title>
     <desc>CALENDRIER :
 • 09/05 21:00 : COL @ MIN
-• 10/05 19:00 : BUF @ MTL</desc>
+• 10/05 19:00 : BUF @ MTL
+• 11/05 TBD : COL @ MIN</desc>
   </programme>
   <programme start="20260510010000 +0000" stop="20260510043000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ MIN</title>
@@ -52,7 +56,8 @@
   <programme start="20260510043000 +0000" stop="20260510230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : BUF @ MTL</title>
     <desc>CALENDRIER :
-• 10/05 19:00 : BUF @ MTL</desc>
+• 10/05 19:00 : BUF @ MTL
+• 11/05 TBD : COL @ MIN</desc>
   </programme>
   <programme start="20260510230000 +0000" stop="20260511023000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ MTL</title>
