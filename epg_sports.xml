@@ -3,19 +3,9 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260505235712 +0000" stop="20260506000000 +0000" channel="Sports.Perso">
-    <title>⏳ Prochain : MIN @ COL</title>
-    <desc>CALENDRIER :
-• 05/05 20:00 : MIN @ COL
-• 06/05 19:00 : MTL @ BUF
-• 08/05 19:00 : MTL @ BUF
-• 09/05 21:00 : COL @ MIN
-• 10/05 19:00 : BUF @ MTL
-• 11/05 TBD : COL @ MIN</desc>
-  </programme>
   <programme start="20260506000000 +0000" stop="20260506033000 +0000" channel="Sports.Perso">
     <title>🏒 MIN @ COL</title>
-    <desc>SÉRIES: (COL 1-0 MIN) | 📺 CBC, SN, TVAS</desc>
+    <desc>SÉRIES: (COL 2-0 MIN) | 📺 CBC, SN, TVAS</desc>
   </programme>
   <programme start="20260506033000 +0000" stop="20260506230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ BUF</title>
@@ -51,7 +41,7 @@
   </programme>
   <programme start="20260510010000 +0000" stop="20260510043000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ MIN</title>
-    <desc>SÉRIES: (COL 1-0 MIN) | 📺 CBC, SN, SN1, TVAS</desc>
+    <desc>SÉRIES: (COL 2-0 MIN) | 📺 CBC, SN, SN1, TVAS</desc>
   </programme>
   <programme start="20260510043000 +0000" stop="20260510230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : BUF @ MTL</title>
