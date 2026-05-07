@@ -14,7 +14,7 @@
 • 09/05 21:00 : COL @ MIN
 • 10/05 19:00 : BUF @ MTL
 • 11/05 TBD : COL @ MIN
-• 12/05 TBD : BUF @ MTL</desc>
+• 12/05 19:00 : BUF @ MTL</desc>
   </programme>
   <programme start="20260508230000 +0000" stop="20260509023000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ BUF</title>
@@ -26,7 +26,7 @@
 • 09/05 21:00 : COL @ MIN
 • 10/05 19:00 : BUF @ MTL
 • 11/05 TBD : COL @ MIN
-• 12/05 TBD : BUF @ MTL</desc>
+• 12/05 19:00 : BUF @ MTL</desc>
   </programme>
   <programme start="20260510010000 +0000" stop="20260510043000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ MIN</title>
@@ -37,9 +37,19 @@
     <desc>CALENDRIER :
 • 10/05 19:00 : BUF @ MTL
 • 11/05 TBD : COL @ MIN
-• 12/05 TBD : BUF @ MTL</desc>
+• 12/05 19:00 : BUF @ MTL</desc>
   </programme>
   <programme start="20260510230000 +0000" stop="20260511023000 +0000" channel="Sports.Perso">
+    <title>🏒 BUF @ MTL</title>
+    <desc>SÉRIES: (BUF 1-0 MTL) | 📺 CBC, SN, TVAS</desc>
+  </programme>
+  <programme start="20260511023000 +0000" stop="20260512230000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : BUF @ MTL</title>
+    <desc>CALENDRIER :
+• 11/05 TBD : COL @ MIN
+• 12/05 19:00 : BUF @ MTL</desc>
+  </programme>
+  <programme start="20260512230000 +0000" stop="20260513023000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ MTL</title>
     <desc>SÉRIES: (BUF 1-0 MTL) | 📺 CBC, SN, TVAS</desc>
   </programme>
