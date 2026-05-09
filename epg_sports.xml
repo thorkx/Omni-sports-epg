@@ -5,7 +5,7 @@
   </channel>
   <programme start="20260508230000 +0000" stop="20260509023000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ BUF</title>
-    <desc>SÉRIES: (BUF 1-0 MTL) | 📺 CBC, SN, TVAS</desc>
+    <desc>SÉRIES: (BUF 1-1 MTL) | 📺 CBC, SN, TVAS</desc>
   </programme>
   <programme start="20260509023000 +0000" stop="20260510010000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : COL @ MIN</title>
@@ -32,7 +32,7 @@
   </programme>
   <programme start="20260510230000 +0000" stop="20260511023000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ MTL</title>
-    <desc>SÉRIES: (BUF 1-0 MTL) | 📺 CBC, SN, TVAS</desc>
+    <desc>SÉRIES: (BUF 1-1 MTL) | 📺 CBC, SN, TVAS</desc>
   </programme>
   <programme start="20260511023000 +0000" stop="20260512230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : BUF @ MTL</title>
@@ -44,6 +44,6 @@
   </programme>
   <programme start="20260512230000 +0000" stop="20260513023000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ MTL</title>
-    <desc>SÉRIES: (BUF 1-0 MTL) | 📺 CBC, SN, TVAS</desc>
+    <desc>SÉRIES: (BUF 1-1 MTL) | 📺 CBC, SN, TVAS</desc>
   </programme>
 </tv>
