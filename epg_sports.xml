@@ -3,11 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260512000000 +0000" stop="20260512033000 +0000" channel="Sports.Perso">
-    <title>🏒 COL @ MIN</title>
-    <desc>SÉRIES: (COL 3-1 MIN) | 📺 CBC, SN, TVAS</desc>
-  </programme>
-  <programme start="20260512033000 +0000" stop="20260512230000 +0000" channel="Sports.Perso">
+  <programme start="20260512170758 +0000" stop="20260512230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : BUF @ MTL</title>
     <desc>CALENDRIER :
 • 12/05 19:00 : BUF @ MTL
@@ -15,7 +11,8 @@
 • 14/05 19:00 : MTL @ BUF
 • 15/05 20:00 : COL @ MIN
 • 16/05 TBD : BUF @ MTL
-• 17/05 TBD : MIN @ COL</desc>
+• 17/05 TBD : MIN @ COL
+• 18/05 TBD : MTL @ BUF</desc>
   </programme>
   <programme start="20260512230000 +0000" stop="20260513023000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ MTL</title>
@@ -28,7 +25,8 @@
 • 14/05 19:00 : MTL @ BUF
 • 15/05 20:00 : COL @ MIN
 • 16/05 TBD : BUF @ MTL
-• 17/05 TBD : MIN @ COL</desc>
+• 17/05 TBD : MIN @ COL
+• 18/05 TBD : MTL @ BUF</desc>
   </programme>
   <programme start="20260514000000 +0000" stop="20260514033000 +0000" channel="Sports.Perso">
     <title>🏒 MIN @ COL</title>
@@ -40,7 +38,8 @@
 • 14/05 19:00 : MTL @ BUF
 • 15/05 20:00 : COL @ MIN
 • 16/05 TBD : BUF @ MTL
-• 17/05 TBD : MIN @ COL</desc>
+• 17/05 TBD : MIN @ COL
+• 18/05 TBD : MTL @ BUF</desc>
   </programme>
   <programme start="20260514230000 +0000" stop="20260515023000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ BUF</title>
@@ -51,7 +50,8 @@
     <desc>CALENDRIER :
 • 15/05 20:00 : COL @ MIN
 • 16/05 TBD : BUF @ MTL
-• 17/05 TBD : MIN @ COL</desc>
+• 17/05 TBD : MIN @ COL
+• 18/05 TBD : MTL @ BUF</desc>
   </programme>
   <programme start="20260516000000 +0000" stop="20260516033000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ MIN</title>
