@@ -3,12 +3,12 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260514185715 +0000" stop="20260514230000 +0000" channel="Sports.Perso">
+  <programme start="20260514202725 +0000" stop="20260514230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ BUF</title>
     <desc>CALENDRIER :
 • 14/05 19:00 : MTL @ BUF
 • 16/05 20:00 : BUF @ MTL
-• 18/05 TBD : MTL @ BUF</desc>
+• 18/05 19:30 : MTL @ BUF</desc>
   </programme>
   <programme start="20260514230000 +0000" stop="20260515023000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ BUF</title>
@@ -18,10 +18,19 @@
     <title>⏳ Prochain : BUF @ MTL</title>
     <desc>CALENDRIER :
 • 16/05 20:00 : BUF @ MTL
-• 18/05 TBD : MTL @ BUF</desc>
+• 18/05 19:30 : MTL @ BUF</desc>
   </programme>
   <programme start="20260517000000 +0000" stop="20260517033000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ MTL</title>
+    <desc>SÉRIES: (BUF 2-2 MTL) | 📺 CBC, SN, TVAS</desc>
+  </programme>
+  <programme start="20260517033000 +0000" stop="20260518233000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : MTL @ BUF</title>
+    <desc>CALENDRIER :
+• 18/05 19:30 : MTL @ BUF</desc>
+  </programme>
+  <programme start="20260518233000 +0000" stop="20260519030000 +0000" channel="Sports.Perso">
+    <title>🏒 MTL @ BUF</title>
     <desc>SÉRIES: (BUF 2-2 MTL) | 📺 CBC, SN, TVAS</desc>
   </programme>
 </tv>
