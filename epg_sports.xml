@@ -3,16 +3,6 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260513235423 +0000" stop="20260514000000 +0000" channel="Sports.Perso">
-    <title>⏳ Prochain : MIN @ COL</title>
-    <desc>CALENDRIER :
-• 13/05 20:00 : MIN @ COL
-• 14/05 19:00 : MTL @ BUF
-• 15/05 20:00 : COL @ MIN
-• 16/05 20:00 : BUF @ MTL
-• 17/05 TBD : MIN @ COL
-• 18/05 TBD : MTL @ BUF</desc>
-  </programme>
   <programme start="20260514000000 +0000" stop="20260514033000 +0000" channel="Sports.Perso">
     <title>🏒 MIN @ COL</title>
     <desc>SÉRIES: (COL 3-1 MIN) | 📺 CBC, SN, TVAS</desc>
