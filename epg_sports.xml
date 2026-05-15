@@ -11,7 +11,8 @@
     <title>⏳ Prochain : BUF @ MTL</title>
     <desc>CALENDRIER :
 • 16/05 20:00 : BUF @ MTL
-• 18/05 19:30 : MTL @ BUF</desc>
+• 18/05 19:30 : MTL @ BUF
+• 20/05 20:00 : VGK @ COL</desc>
   </programme>
   <programme start="20260517000000 +0000" stop="20260517033000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ MTL</title>
@@ -20,10 +21,20 @@
   <programme start="20260517033000 +0000" stop="20260518233000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ BUF</title>
     <desc>CALENDRIER :
-• 18/05 19:30 : MTL @ BUF</desc>
+• 18/05 19:30 : MTL @ BUF
+• 20/05 20:00 : VGK @ COL</desc>
   </programme>
   <programme start="20260518233000 +0000" stop="20260519030000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ BUF</title>
     <desc>SÉRIES: (BUF 2-3 MTL) | 📺 CBC, SN, TVAS</desc>
+  </programme>
+  <programme start="20260519030000 +0000" stop="20260521000000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : VGK @ COL</title>
+    <desc>CALENDRIER :
+• 20/05 20:00 : VGK @ COL</desc>
+  </programme>
+  <programme start="20260521000000 +0000" stop="20260521033000 +0000" channel="Sports.Perso">
+    <title>🏒 VGK @ COL</title>
+    <desc>SÉRIES: (COL 0-0 VGK) | 📺 CBC, SN, TVAS</desc>
   </programme>
 </tv>
