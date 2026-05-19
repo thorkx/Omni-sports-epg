@@ -3,18 +3,15 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260518233000 +0000" stop="20260519030000 +0000" channel="Sports.Perso">
-    <title>🏒 MTL @ BUF</title>
-    <desc>SÉRIES: (BUF 3-4 MTL) | 📺 CBC, SN, TVAS</desc>
-  </programme>
-  <programme start="20260519030000 +0000" stop="20260521000000 +0000" channel="Sports.Perso">
+  <programme start="20260519161633 +0000" stop="20260521000000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : VGK @ COL</title>
     <desc>CALENDRIER :
 • 20/05 20:00 : VGK @ COL
 • 21/05 20:00 : MTL @ CAR
 • 22/05 20:00 : VGK @ COL
 • 23/05 19:00 : MTL @ CAR
-• 24/05 20:00 : COL @ VGK</desc>
+• 24/05 20:00 : COL @ VGK
+• 25/05 20:00 : CAR @ MTL</desc>
   </programme>
   <programme start="20260521000000 +0000" stop="20260521033000 +0000" channel="Sports.Perso">
     <title>🏒 VGK @ COL</title>
@@ -26,7 +23,8 @@
 • 21/05 20:00 : MTL @ CAR
 • 22/05 20:00 : VGK @ COL
 • 23/05 19:00 : MTL @ CAR
-• 24/05 20:00 : COL @ VGK</desc>
+• 24/05 20:00 : COL @ VGK
+• 25/05 20:00 : CAR @ MTL</desc>
   </programme>
   <programme start="20260522000000 +0000" stop="20260522033000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ CAR</title>
@@ -37,7 +35,8 @@
     <desc>CALENDRIER :
 • 22/05 20:00 : VGK @ COL
 • 23/05 19:00 : MTL @ CAR
-• 24/05 20:00 : COL @ VGK</desc>
+• 24/05 20:00 : COL @ VGK
+• 25/05 20:00 : CAR @ MTL</desc>
   </programme>
   <programme start="20260523000000 +0000" stop="20260523033000 +0000" channel="Sports.Perso">
     <title>🏒 VGK @ COL</title>
@@ -47,7 +46,8 @@
     <title>⏳ Prochain : MTL @ CAR</title>
     <desc>CALENDRIER :
 • 23/05 19:00 : MTL @ CAR
-• 24/05 20:00 : COL @ VGK</desc>
+• 24/05 20:00 : COL @ VGK
+• 25/05 20:00 : CAR @ MTL</desc>
   </programme>
   <programme start="20260523230000 +0000" stop="20260524023000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ CAR</title>
@@ -56,10 +56,20 @@
   <programme start="20260524023000 +0000" stop="20260525000000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : COL @ VGK</title>
     <desc>CALENDRIER :
-• 24/05 20:00 : COL @ VGK</desc>
+• 24/05 20:00 : COL @ VGK
+• 25/05 20:00 : CAR @ MTL</desc>
   </programme>
   <programme start="20260525000000 +0000" stop="20260525033000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ VGK</title>
     <desc>SÉRIES: (COL 0-0 VGK) | 📺 CBC, SN, TVAS</desc>
+  </programme>
+  <programme start="20260525033000 +0000" stop="20260526000000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : CAR @ MTL</title>
+    <desc>CALENDRIER :
+• 25/05 20:00 : CAR @ MTL</desc>
+  </programme>
+  <programme start="20260526000000 +0000" stop="20260526033000 +0000" channel="Sports.Perso">
+    <title>🏒 CAR @ MTL</title>
+    <desc>SÉRIES: (CAR 0-0 MTL) | 📺 CBC, SN, TVAS</desc>
   </programme>
 </tv>
