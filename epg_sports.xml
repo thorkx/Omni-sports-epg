@@ -3,20 +3,9 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260520230940 +0000" stop="20260521000000 +0000" channel="Sports.Perso">
-    <title>⏳ Prochain : VGK @ COL</title>
-    <desc>CALENDRIER :
-• 20/05 20:00 : VGK @ COL
-• 21/05 20:00 : MTL @ CAR
-• 22/05 20:00 : VGK @ COL
-• 23/05 19:00 : MTL @ CAR
-• 24/05 20:00 : COL @ VGK
-• 25/05 20:00 : CAR @ MTL
-• 26/05 21:00 : COL @ VGK</desc>
-  </programme>
   <programme start="20260521000000 +0000" stop="20260521033000 +0000" channel="Sports.Perso">
     <title>🏒 VGK @ COL</title>
-    <desc>SÉRIES: (COL 0-0 VGK) | 📺 CBC, SN, TVAS</desc>
+    <desc>SÉRIES: (COL 0-1 VGK) | 📺 CBC, SN, TVAS</desc>
   </programme>
   <programme start="20260521033000 +0000" stop="20260522000000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ CAR</title>
@@ -43,7 +32,7 @@
   </programme>
   <programme start="20260523000000 +0000" stop="20260523033000 +0000" channel="Sports.Perso">
     <title>🏒 VGK @ COL</title>
-    <desc>SÉRIES: (COL 0-0 VGK) | 📺 CBC, SN, TVAS</desc>
+    <desc>SÉRIES: (COL 0-1 VGK) | 📺 CBC, SN, TVAS</desc>
   </programme>
   <programme start="20260523033000 +0000" stop="20260523230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ CAR</title>
@@ -66,7 +55,7 @@
   </programme>
   <programme start="20260525000000 +0000" stop="20260525033000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ VGK</title>
-    <desc>SÉRIES: (COL 0-0 VGK) | 📺 CBC, SN, TVAS</desc>
+    <desc>SÉRIES: (COL 0-1 VGK) | 📺 CBC, SN, TVAS</desc>
   </programme>
   <programme start="20260525033000 +0000" stop="20260526000000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : CAR @ MTL</title>
@@ -85,6 +74,6 @@
   </programme>
   <programme start="20260527010000 +0000" stop="20260527043000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ VGK</title>
-    <desc>SÉRIES: (COL 0-0 VGK) | 📺 CBC, SN, TVAS</desc>
+    <desc>SÉRIES: (COL 0-1 VGK) | 📺 CBC, SN, TVAS</desc>
   </programme>
 </tv>
