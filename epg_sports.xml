@@ -3,11 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260523000000 +0000" stop="20260523033000 +0000" channel="Sports.Perso">
-    <title>🏒 VGK @ COL</title>
-    <desc>SÉRIES: (COL 0-2 VGK) | 📺 CBC, SN, TVAS</desc>
-  </programme>
-  <programme start="20260523033000 +0000" stop="20260523230000 +0000" channel="Sports.Perso">
+  <programme start="20260523160430 +0000" stop="20260523230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ CAR</title>
     <desc>CALENDRIER :
 • 23/05 19:00 : MTL @ CAR
@@ -15,7 +11,8 @@
 • 25/05 20:00 : CAR @ MTL
 • 26/05 21:00 : COL @ VGK
 • 27/05 20:00 : CAR @ MTL
-• 28/05 20:00 : VGK @ COL</desc>
+• 28/05 20:00 : VGK @ COL
+• 29/05 20:00 : MTL @ CAR</desc>
   </programme>
   <programme start="20260523230000 +0000" stop="20260524023000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ CAR</title>
@@ -28,7 +25,8 @@
 • 25/05 20:00 : CAR @ MTL
 • 26/05 21:00 : COL @ VGK
 • 27/05 20:00 : CAR @ MTL
-• 28/05 20:00 : VGK @ COL</desc>
+• 28/05 20:00 : VGK @ COL
+• 29/05 20:00 : MTL @ CAR</desc>
   </programme>
   <programme start="20260525000000 +0000" stop="20260525033000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ VGK</title>
@@ -40,7 +38,8 @@
 • 25/05 20:00 : CAR @ MTL
 • 26/05 21:00 : COL @ VGK
 • 27/05 20:00 : CAR @ MTL
-• 28/05 20:00 : VGK @ COL</desc>
+• 28/05 20:00 : VGK @ COL
+• 29/05 20:00 : MTL @ CAR</desc>
   </programme>
   <programme start="20260526000000 +0000" stop="20260526033000 +0000" channel="Sports.Perso">
     <title>🏒 CAR @ MTL</title>
@@ -51,7 +50,8 @@
     <desc>CALENDRIER :
 • 26/05 21:00 : COL @ VGK
 • 27/05 20:00 : CAR @ MTL
-• 28/05 20:00 : VGK @ COL</desc>
+• 28/05 20:00 : VGK @ COL
+• 29/05 20:00 : MTL @ CAR</desc>
   </programme>
   <programme start="20260527010000 +0000" stop="20260527043000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ VGK</title>
@@ -61,7 +61,8 @@
     <title>⏳ Prochain : CAR @ MTL</title>
     <desc>CALENDRIER :
 • 27/05 20:00 : CAR @ MTL
-• 28/05 20:00 : VGK @ COL</desc>
+• 28/05 20:00 : VGK @ COL
+• 29/05 20:00 : MTL @ CAR</desc>
   </programme>
   <programme start="20260528000000 +0000" stop="20260528033000 +0000" channel="Sports.Perso">
     <title>🏒 CAR @ MTL</title>
@@ -70,10 +71,20 @@
   <programme start="20260528033000 +0000" stop="20260529000000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : VGK @ COL</title>
     <desc>CALENDRIER :
-• 28/05 20:00 : VGK @ COL</desc>
+• 28/05 20:00 : VGK @ COL
+• 29/05 20:00 : MTL @ CAR</desc>
   </programme>
   <programme start="20260529000000 +0000" stop="20260529033000 +0000" channel="Sports.Perso">
     <title>🏒 VGK @ COL</title>
     <desc>SÉRIES: (COL 0-2 VGK) | 📺 CBC, SN, TVAS</desc>
+  </programme>
+  <programme start="20260529033000 +0000" stop="20260530000000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : MTL @ CAR</title>
+    <desc>CALENDRIER :
+• 29/05 20:00 : MTL @ CAR</desc>
+  </programme>
+  <programme start="20260530000000 +0000" stop="20260530033000 +0000" channel="Sports.Perso">
+    <title>🏒 MTL @ CAR</title>
+    <desc>SÉRIES: (CAR 0-1 MTL) | 📺 CBC, SN, TVAS</desc>
   </programme>
 </tv>
