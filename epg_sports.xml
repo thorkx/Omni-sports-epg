@@ -3,11 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260526000000 +0000" stop="20260526033000 +0000" channel="Sports.Perso">
-    <title>🏒 CAR @ MTL</title>
-    <desc>SÉRIES: (CAR 2-1 MTL) | 📺 CBC, SN, TVAS</desc>
-  </programme>
-  <programme start="20260526033000 +0000" stop="20260527010000 +0000" channel="Sports.Perso">
+  <programme start="20260526163948 +0000" stop="20260527010000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : COL @ VGK</title>
     <desc>CALENDRIER :
 • 26/05 21:00 : COL @ VGK
@@ -15,7 +11,8 @@
 • 28/05 20:00 : VGK @ COL
 • 29/05 20:00 : MTL @ CAR
 • 30/05 20:00 : COL @ VGK
-• 31/05 TBD : CAR @ MTL</desc>
+• 31/05 TBD : CAR @ MTL
+• 01/06 20:00 : VGK @ COL</desc>
   </programme>
   <programme start="20260527010000 +0000" stop="20260527043000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ VGK</title>
@@ -28,7 +25,8 @@
 • 28/05 20:00 : VGK @ COL
 • 29/05 20:00 : MTL @ CAR
 • 30/05 20:00 : COL @ VGK
-• 31/05 TBD : CAR @ MTL</desc>
+• 31/05 TBD : CAR @ MTL
+• 01/06 20:00 : VGK @ COL</desc>
   </programme>
   <programme start="20260528000000 +0000" stop="20260528033000 +0000" channel="Sports.Perso">
     <title>🏒 CAR @ MTL</title>
@@ -40,7 +38,8 @@
 • 28/05 20:00 : VGK @ COL
 • 29/05 20:00 : MTL @ CAR
 • 30/05 20:00 : COL @ VGK
-• 31/05 TBD : CAR @ MTL</desc>
+• 31/05 TBD : CAR @ MTL
+• 01/06 20:00 : VGK @ COL</desc>
   </programme>
   <programme start="20260529000000 +0000" stop="20260529033000 +0000" channel="Sports.Perso">
     <title>🏒 VGK @ COL</title>
@@ -51,7 +50,8 @@
     <desc>CALENDRIER :
 • 29/05 20:00 : MTL @ CAR
 • 30/05 20:00 : COL @ VGK
-• 31/05 TBD : CAR @ MTL</desc>
+• 31/05 TBD : CAR @ MTL
+• 01/06 20:00 : VGK @ COL</desc>
   </programme>
   <programme start="20260530000000 +0000" stop="20260530033000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ CAR</title>
@@ -61,10 +61,21 @@
     <title>⏳ Prochain : COL @ VGK</title>
     <desc>CALENDRIER :
 • 30/05 20:00 : COL @ VGK
-• 31/05 TBD : CAR @ MTL</desc>
+• 31/05 TBD : CAR @ MTL
+• 01/06 20:00 : VGK @ COL</desc>
   </programme>
   <programme start="20260531000000 +0000" stop="20260531033000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ VGK</title>
+    <desc>SÉRIES: (COL 0-3 VGK) | 📺 CBC, SN, TVAS</desc>
+  </programme>
+  <programme start="20260531033000 +0000" stop="20260602000000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : VGK @ COL</title>
+    <desc>CALENDRIER :
+• 31/05 TBD : CAR @ MTL
+• 01/06 20:00 : VGK @ COL</desc>
+  </programme>
+  <programme start="20260602000000 +0000" stop="20260602033000 +0000" channel="Sports.Perso">
+    <title>🏒 VGK @ COL</title>
     <desc>SÉRIES: (COL 0-3 VGK) | 📺 CBC, SN, TVAS</desc>
   </programme>
 </tv>
