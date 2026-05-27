@@ -3,16 +3,13 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260527010000 +0000" stop="20260527043000 +0000" channel="Sports.Perso">
-    <title>🏒 COL @ VGK</title>
-    <desc>SÉRIES: (COL 0-4 VGK) | 📺 CBC, SN, TVAS</desc>
-  </programme>
-  <programme start="20260527043000 +0000" stop="20260528000000 +0000" channel="Sports.Perso">
+  <programme start="20260527182408 +0000" stop="20260528000000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : CAR @ MTL</title>
     <desc>CALENDRIER :
 • 27/05 20:00 : CAR @ MTL
 • 29/05 20:00 : MTL @ CAR
-• 31/05 TBD : CAR @ MTL</desc>
+• 31/05 TBD : CAR @ MTL
+• 02/06 20:00 : MTL @ CAR</desc>
   </programme>
   <programme start="20260528000000 +0000" stop="20260528033000 +0000" channel="Sports.Perso">
     <title>🏒 CAR @ MTL</title>
@@ -22,9 +19,20 @@
     <title>⏳ Prochain : MTL @ CAR</title>
     <desc>CALENDRIER :
 • 29/05 20:00 : MTL @ CAR
-• 31/05 TBD : CAR @ MTL</desc>
+• 31/05 TBD : CAR @ MTL
+• 02/06 20:00 : MTL @ CAR</desc>
   </programme>
   <programme start="20260530000000 +0000" stop="20260530033000 +0000" channel="Sports.Perso">
+    <title>🏒 MTL @ CAR</title>
+    <desc>SÉRIES: (CAR 2-1 MTL) | 📺 CBC, SN, TVAS</desc>
+  </programme>
+  <programme start="20260530033000 +0000" stop="20260603000000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : MTL @ CAR</title>
+    <desc>CALENDRIER :
+• 31/05 TBD : CAR @ MTL
+• 02/06 20:00 : MTL @ CAR</desc>
+  </programme>
+  <programme start="20260603000000 +0000" stop="20260603033000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ CAR</title>
     <desc>SÉRIES: (CAR 2-1 MTL) | 📺 CBC, SN, TVAS</desc>
   </programme>
