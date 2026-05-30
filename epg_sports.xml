@@ -3,8 +3,4 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260530000000 +0000" stop="20260530033000 +0000" channel="Sports.Perso">
-    <title>🏒 MTL @ CAR</title>
-    <desc>SÉRIES: (CAR 4-1 MTL) | 📺 CBC, SN, TVAS</desc>
-  </programme>
 </tv>
