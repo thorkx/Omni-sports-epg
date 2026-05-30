@@ -5,25 +5,6 @@
   </channel>
   <programme start="20260530000000 +0000" stop="20260530033000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ CAR</title>
-    <desc>SÉRIES: (CAR 3-1 MTL) | 📺 CBC, SN, TVAS</desc>
-  </programme>
-  <programme start="20260530033000 +0000" stop="20260531233000 +0000" channel="Sports.Perso">
-    <title>⏳ Prochain : CAR @ MTL</title>
-    <desc>CALENDRIER :
-• 31/05 19:30 : CAR @ MTL
-• 02/06 20:00 : MTL @ CAR</desc>
-  </programme>
-  <programme start="20260531233000 +0000" stop="20260601030000 +0000" channel="Sports.Perso">
-    <title>🏒 CAR @ MTL</title>
-    <desc>SÉRIES: (CAR 3-1 MTL) | 📺 SN, TVAS</desc>
-  </programme>
-  <programme start="20260601030000 +0000" stop="20260603000000 +0000" channel="Sports.Perso">
-    <title>⏳ Prochain : MTL @ CAR</title>
-    <desc>CALENDRIER :
-• 02/06 20:00 : MTL @ CAR</desc>
-  </programme>
-  <programme start="20260603000000 +0000" stop="20260603033000 +0000" channel="Sports.Perso">
-    <title>🏒 MTL @ CAR</title>
-    <desc>SÉRIES: (CAR 3-1 MTL) | 📺 CBC, SN, TVAS</desc>
+    <desc>SÉRIES: (CAR 4-1 MTL) | 📺 CBC, SN, TVAS</desc>
   </programme>
 </tv>
