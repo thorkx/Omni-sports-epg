@@ -3,4 +3,23 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
+  <programme start="20260715200518 +0000" stop="20260929230000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : MTL @ TOR</title>
+    <desc>CALENDRIER :
+• 29/09 19:00 : MTL @ TOR
+• 30/09 22:00 : LAK @ COL</desc>
+  </programme>
+  <programme start="20260929230000 +0000" stop="20260930023000 +0000" channel="Sports.Perso">
+    <title>🏒 MTL @ TOR</title>
+    <desc>Fiche: MTL(None) @ TOR(None) | 📺 SN</desc>
+  </programme>
+  <programme start="20260930023000 +0000" stop="20261001020000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : LAK @ COL</title>
+    <desc>CALENDRIER :
+• 30/09 22:00 : LAK @ COL</desc>
+  </programme>
+  <programme start="20261001020000 +0000" stop="20261001053000 +0000" channel="Sports.Perso">
+    <title>🏒 LAK @ COL</title>
+    <desc>Fiche: LAK(None) @ COL(None)</desc>
+  </programme>
 </tv>
