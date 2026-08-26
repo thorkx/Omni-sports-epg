@@ -3,13 +3,13 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260826161425 +0000" stop="20260929230000 +0000" channel="Sports.Perso">
+  <programme start="20260826185553 +0000" stop="20260929230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ TOR</title>
     <desc>CALENDRIER :
 • 29/09 19:00 : MTL @ TOR
 • 30/09 22:00 : LAK @ COL
 • 01/10 19:00 : BUF @ CBJ
-• 01/10 21:00 : CHI @ UTA
+• 01/10 21:30 : CHI @ UTA
 • 03/10 19:00 : MTL @ PIT
 • 03/10 19:00 : UTA @ CBJ
 • 03/10 19:00 : CHI @ BUF
@@ -25,7 +25,7 @@
     <desc>CALENDRIER :
 • 30/09 22:00 : LAK @ COL
 • 01/10 19:00 : BUF @ CBJ
-• 01/10 21:00 : CHI @ UTA
+• 01/10 21:30 : CHI @ UTA
 • 03/10 19:00 : MTL @ PIT
 • 03/10 19:00 : UTA @ CBJ
 • 03/10 19:00 : CHI @ BUF
@@ -40,7 +40,7 @@
     <title>⏳ Prochain : BUF @ CBJ</title>
     <desc>CALENDRIER :
 • 01/10 19:00 : BUF @ CBJ
-• 01/10 21:00 : CHI @ UTA
+• 01/10 21:30 : CHI @ UTA
 • 03/10 19:00 : MTL @ PIT
 • 03/10 19:00 : UTA @ CBJ
 • 03/10 19:00 : CHI @ BUF
@@ -51,11 +51,11 @@
     <title>🏒 BUF @ CBJ</title>
     <desc>Fiche: BUF(None) @ CBJ(None)</desc>
   </programme>
-  <programme start="20261002010000 +0000" stop="20261002043000 +0000" channel="Sports.Perso">
+  <programme start="20261002013000 +0000" stop="20261002050000 +0000" channel="Sports.Perso">
     <title>🏒 CHI @ UTA</title>
     <desc>Fiche: CHI(None) @ UTA(None)</desc>
   </programme>
-  <programme start="20261002043000 +0000" stop="20261003230000 +0000" channel="Sports.Perso">
+  <programme start="20261002050000 +0000" stop="20261003230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ PIT</title>
     <desc>CALENDRIER :
 • 03/10 19:00 : MTL @ PIT
