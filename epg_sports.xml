@@ -3,7 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260909194102 +0000" stop="20260929230000 +0000" channel="Sports.Perso">
+  <programme start="20260909221350 +0000" stop="20260929230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ TOR</title>
     <desc>CALENDRIER :
 • 29/09 19:00 : MTL @ TOR
@@ -18,7 +18,7 @@
   </programme>
   <programme start="20260929230000 +0000" stop="20260930023000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ TOR</title>
-    <desc>Fiche: MTL(None) @ TOR(None) | 📺 SN</desc>
+    <desc>Fiche: MTL(None) @ TOR(None) | 📺 SN, TVAS</desc>
   </programme>
   <programme start="20260930023000 +0000" stop="20261001020000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : LAK @ COL</title>
@@ -66,7 +66,7 @@
   </programme>
   <programme start="20261003230000 +0000" stop="20261004023000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ PIT</title>
-    <desc>Fiche: MTL(None) @ PIT(None) | 📺 SNE</desc>
+    <desc>Fiche: MTL(None) @ PIT(None) | 📺 SNE, TVAS</desc>
   </programme>
   <programme start="20261003230000 +0000" stop="20261004023000 +0000" channel="Sports.Perso">
     <title>🏒 UTA @ CBJ</title>
@@ -87,6 +87,6 @@
   </programme>
   <programme start="20261004220000 +0000" stop="20261005013000 +0000" channel="Sports.Perso">
     <title>🏒 UTA @ NYR</title>
-    <desc>Fiche: UTA(None) @ NYR(None)</desc>
+    <desc>Fiche: UTA(None) @ NYR(None) | 📺 TVAS</desc>
   </programme>
 </tv>
