@@ -3,15 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260919230000 +0000" stop="20260920023000 +0000" channel="Sports.Perso">
-    <title>🏒 MTL @ TOR</title>
-    <desc>Fiche: MTL(None) @ TOR(None) | 📺 TSN2, TSN4, RDSI</desc>
-  </programme>
-  <programme start="20260919230000 +0000" stop="20260920023000 +0000" channel="Sports.Perso">
-    <title>🏒 TOR @ MTL</title>
-    <desc>Fiche: TOR(None) @ MTL(None) | 📺 SN1, RDS</desc>
-  </programme>
-  <programme start="20260920023000 +0000" stop="20260920230000 +0000" channel="Sports.Perso">
+  <programme start="20260920171613 +0000" stop="20260920230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : UTA @ COL</title>
     <desc>CALENDRIER :
 • 20/09 19:00 : UTA @ COL
@@ -22,7 +14,11 @@
 • 22/09 22:00 : UTA @ LAK
 • 24/09 19:00 : BUF @ DET
 • 24/09 22:00 : UTA @ VGK
-• 25/09 20:30 : WPG @ COL</desc>
+• 25/09 20:30 : WPG @ COL
+• 26/09 15:00 : PIT @ BUF
+• 26/09 17:00 : COL @ UTA
+• 26/09 19:00 : MTL @ OTT
+• 26/09 19:00 : OTT @ MTL</desc>
   </programme>
   <programme start="20260920230000 +0000" stop="20260921023000 +0000" channel="Sports.Perso">
     <title>🏒 UTA @ COL</title>
@@ -38,7 +34,11 @@
 • 22/09 22:00 : UTA @ LAK
 • 24/09 19:00 : BUF @ DET
 • 24/09 22:00 : UTA @ VGK
-• 25/09 20:30 : WPG @ COL</desc>
+• 25/09 20:30 : WPG @ COL
+• 26/09 15:00 : PIT @ BUF
+• 26/09 17:00 : COL @ UTA
+• 26/09 19:00 : MTL @ OTT
+• 26/09 19:00 : OTT @ MTL</desc>
   </programme>
   <programme start="20260921230000 +0000" stop="20260922023000 +0000" channel="Sports.Perso">
     <title>🏒 OTT @ MTL</title>
@@ -59,7 +59,11 @@
 • 22/09 22:00 : UTA @ LAK
 • 24/09 19:00 : BUF @ DET
 • 24/09 22:00 : UTA @ VGK
-• 25/09 20:30 : WPG @ COL</desc>
+• 25/09 20:30 : WPG @ COL
+• 26/09 15:00 : PIT @ BUF
+• 26/09 17:00 : COL @ UTA
+• 26/09 19:00 : MTL @ OTT
+• 26/09 19:00 : OTT @ MTL</desc>
   </programme>
   <programme start="20260922230000 +0000" stop="20260923023000 +0000" channel="Sports.Perso">
     <title>🏒 CBJ @ BUF</title>
@@ -74,7 +78,11 @@
     <desc>CALENDRIER :
 • 24/09 19:00 : BUF @ DET
 • 24/09 22:00 : UTA @ VGK
-• 25/09 20:30 : WPG @ COL</desc>
+• 25/09 20:30 : WPG @ COL
+• 26/09 15:00 : PIT @ BUF
+• 26/09 17:00 : COL @ UTA
+• 26/09 19:00 : MTL @ OTT
+• 26/09 19:00 : OTT @ MTL</desc>
   </programme>
   <programme start="20260924230000 +0000" stop="20260925023000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ DET</title>
@@ -87,10 +95,38 @@
   <programme start="20260925053000 +0000" stop="20260926003000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : WPG @ COL</title>
     <desc>CALENDRIER :
-• 25/09 20:30 : WPG @ COL</desc>
+• 25/09 20:30 : WPG @ COL
+• 26/09 15:00 : PIT @ BUF
+• 26/09 17:00 : COL @ UTA
+• 26/09 19:00 : MTL @ OTT
+• 26/09 19:00 : OTT @ MTL</desc>
   </programme>
   <programme start="20260926003000 +0000" stop="20260926040000 +0000" channel="Sports.Perso">
     <title>🏒 WPG @ COL</title>
     <desc>Fiche: WPG(None) @ COL(None)</desc>
+  </programme>
+  <programme start="20260926040000 +0000" stop="20260926190000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : PIT @ BUF</title>
+    <desc>CALENDRIER :
+• 26/09 15:00 : PIT @ BUF
+• 26/09 17:00 : COL @ UTA
+• 26/09 19:00 : MTL @ OTT
+• 26/09 19:00 : OTT @ MTL</desc>
+  </programme>
+  <programme start="20260926190000 +0000" stop="20260926223000 +0000" channel="Sports.Perso">
+    <title>🏒 PIT @ BUF</title>
+    <desc>Fiche: PIT(None) @ BUF(None)</desc>
+  </programme>
+  <programme start="20260926210000 +0000" stop="20260927003000 +0000" channel="Sports.Perso">
+    <title>🏒 COL @ UTA</title>
+    <desc>Fiche: COL(None) @ UTA(None)</desc>
+  </programme>
+  <programme start="20260926230000 +0000" stop="20260927023000 +0000" channel="Sports.Perso">
+    <title>🏒 MTL @ OTT</title>
+    <desc>Fiche: MTL(None) @ OTT(None)</desc>
+  </programme>
+  <programme start="20260926230000 +0000" stop="20260927023000 +0000" channel="Sports.Perso">
+    <title>🏒 OTT @ MTL</title>
+    <desc>Fiche: OTT(None) @ MTL(None) | 📺 TSN5, RDS</desc>
   </programme>
 </tv>
