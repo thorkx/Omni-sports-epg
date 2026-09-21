@@ -3,11 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260920230000 +0000" stop="20260921023000 +0000" channel="Sports.Perso">
-    <title>🏒 UTA @ COL</title>
-    <desc>Fiche: UTA(None) @ COL(None)</desc>
-  </programme>
-  <programme start="20260921023000 +0000" stop="20260921230000 +0000" channel="Sports.Perso">
+  <programme start="20260921174815 +0000" stop="20260921230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : OTT @ MTL</title>
     <desc>CALENDRIER :
 • 21/09 19:00 : OTT @ MTL
