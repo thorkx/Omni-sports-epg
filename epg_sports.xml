@@ -3,15 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260924230000 +0000" stop="20260925023000 +0000" channel="Sports.Perso">
-    <title>🏒 BUF @ DET</title>
-    <desc>Fiche: BUF(None) @ DET(None)</desc>
-  </programme>
-  <programme start="20260925020000 +0000" stop="20260925053000 +0000" channel="Sports.Perso">
-    <title>🏒 UTA @ VGK</title>
-    <desc>Fiche: UTA(None) @ VGK(None)</desc>
-  </programme>
-  <programme start="20260925053000 +0000" stop="20260926003000 +0000" channel="Sports.Perso">
+  <programme start="20260925162611 +0000" stop="20260926003000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : WPG @ COL</title>
     <desc>CALENDRIER :
 • 25/09 20:30 : WPG @ COL
@@ -20,7 +12,9 @@
 • 26/09 19:00 : MTL @ OTT
 • 26/09 19:00 : OTT @ MTL
 • 29/09 19:00 : MTL @ TOR
-• 30/09 22:00 : LAK @ COL</desc>
+• 30/09 22:00 : LAK @ COL
+• 01/10 19:00 : BUF @ CBJ
+• 01/10 21:30 : CHI @ UTA</desc>
   </programme>
   <programme start="20260926003000 +0000" stop="20260926040000 +0000" channel="Sports.Perso">
     <title>🏒 WPG @ COL</title>
@@ -34,7 +28,9 @@
 • 26/09 19:00 : MTL @ OTT
 • 26/09 19:00 : OTT @ MTL
 • 29/09 19:00 : MTL @ TOR
-• 30/09 22:00 : LAK @ COL</desc>
+• 30/09 22:00 : LAK @ COL
+• 01/10 19:00 : BUF @ CBJ
+• 01/10 21:30 : CHI @ UTA</desc>
   </programme>
   <programme start="20260926190000 +0000" stop="20260926223000 +0000" channel="Sports.Perso">
     <title>🏒 PIT @ BUF</title>
@@ -56,7 +52,9 @@
     <title>⏳ Prochain : MTL @ TOR</title>
     <desc>CALENDRIER :
 • 29/09 19:00 : MTL @ TOR
-• 30/09 22:00 : LAK @ COL</desc>
+• 30/09 22:00 : LAK @ COL
+• 01/10 19:00 : BUF @ CBJ
+• 01/10 21:30 : CHI @ UTA</desc>
   </programme>
   <programme start="20260929230000 +0000" stop="20260930023000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ TOR</title>
@@ -65,10 +63,26 @@
   <programme start="20260930023000 +0000" stop="20261001020000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : LAK @ COL</title>
     <desc>CALENDRIER :
-• 30/09 22:00 : LAK @ COL</desc>
+• 30/09 22:00 : LAK @ COL
+• 01/10 19:00 : BUF @ CBJ
+• 01/10 21:30 : CHI @ UTA</desc>
   </programme>
   <programme start="20261001020000 +0000" stop="20261001053000 +0000" channel="Sports.Perso">
     <title>🏒 LAK @ COL</title>
     <desc>Fiche: LAK(None) @ COL(None)</desc>
+  </programme>
+  <programme start="20261001053000 +0000" stop="20261001230000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : BUF @ CBJ</title>
+    <desc>CALENDRIER :
+• 01/10 19:00 : BUF @ CBJ
+• 01/10 21:30 : CHI @ UTA</desc>
+  </programme>
+  <programme start="20261001230000 +0000" stop="20261002023000 +0000" channel="Sports.Perso">
+    <title>🏒 BUF @ CBJ</title>
+    <desc>Fiche: BUF(None) @ CBJ(None)</desc>
+  </programme>
+  <programme start="20261002013000 +0000" stop="20261002050000 +0000" channel="Sports.Perso">
+    <title>🏒 CHI @ UTA</title>
+    <desc>Fiche: CHI(None) @ UTA(None)</desc>
   </programme>
 </tv>
