@@ -3,11 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260926003000 +0000" stop="20260926040000 +0000" channel="Sports.Perso">
-    <title>🏒 WPG @ COL</title>
-    <desc>Fiche: WPG(None) @ COL(None)</desc>
-  </programme>
-  <programme start="20260926040000 +0000" stop="20260926190000 +0000" channel="Sports.Perso">
+  <programme start="20260926181626 +0000" stop="20260926190000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : PIT @ BUF</title>
     <desc>CALENDRIER :
 • 26/09 15:00 : PIT @ BUF
