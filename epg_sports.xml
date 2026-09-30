@@ -3,11 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20260929230000 +0000" stop="20260930023000 +0000" channel="Sports.Perso">
-    <title>🏒 MTL @ TOR</title>
-    <desc>Fiche: MTL(None) @ TOR(None) | 📺 SN, TVAS</desc>
-  </programme>
-  <programme start="20260930023000 +0000" stop="20261001020000 +0000" channel="Sports.Perso">
+  <programme start="20260930194703 +0000" stop="20261001020000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : LAK @ COL</title>
     <desc>CALENDRIER :
 • 30/09 22:00 : LAK @ COL
@@ -17,7 +13,10 @@
 • 03/10 19:00 : UTA @ CBJ
 • 03/10 19:00 : CHI @ BUF
 • 03/10 21:00 : STL @ COL
-• 04/10 18:00 : UTA @ NYR</desc>
+• 04/10 18:00 : UTA @ NYR
+• 06/10 19:00 : CAR @ MTL
+• 06/10 19:00 : UTA @ NJD
+• 06/10 19:00 : MIN @ BUF</desc>
   </programme>
   <programme start="20261001020000 +0000" stop="20261001053000 +0000" channel="Sports.Perso">
     <title>🏒 LAK @ COL</title>
@@ -32,7 +31,10 @@
 • 03/10 19:00 : UTA @ CBJ
 • 03/10 19:00 : CHI @ BUF
 • 03/10 21:00 : STL @ COL
-• 04/10 18:00 : UTA @ NYR</desc>
+• 04/10 18:00 : UTA @ NYR
+• 06/10 19:00 : CAR @ MTL
+• 06/10 19:00 : UTA @ NJD
+• 06/10 19:00 : MIN @ BUF</desc>
   </programme>
   <programme start="20261001230000 +0000" stop="20261002023000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ CBJ</title>
@@ -49,7 +51,10 @@
 • 03/10 19:00 : UTA @ CBJ
 • 03/10 19:00 : CHI @ BUF
 • 03/10 21:00 : STL @ COL
-• 04/10 18:00 : UTA @ NYR</desc>
+• 04/10 18:00 : UTA @ NYR
+• 06/10 19:00 : CAR @ MTL
+• 06/10 19:00 : UTA @ NJD
+• 06/10 19:00 : MIN @ BUF</desc>
   </programme>
   <programme start="20261003230000 +0000" stop="20261004023000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ PIT</title>
@@ -70,10 +75,32 @@
   <programme start="20261004043000 +0000" stop="20261004220000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : UTA @ NYR</title>
     <desc>CALENDRIER :
-• 04/10 18:00 : UTA @ NYR</desc>
+• 04/10 18:00 : UTA @ NYR
+• 06/10 19:00 : CAR @ MTL
+• 06/10 19:00 : UTA @ NJD
+• 06/10 19:00 : MIN @ BUF</desc>
   </programme>
   <programme start="20261004220000 +0000" stop="20261005013000 +0000" channel="Sports.Perso">
     <title>🏒 UTA @ NYR</title>
     <desc>Fiche: UTA(None) @ NYR(None) | 📺 SN360, TVAS</desc>
+  </programme>
+  <programme start="20261005013000 +0000" stop="20261006230000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : CAR @ MTL</title>
+    <desc>CALENDRIER :
+• 06/10 19:00 : CAR @ MTL
+• 06/10 19:00 : UTA @ NJD
+• 06/10 19:00 : MIN @ BUF</desc>
+  </programme>
+  <programme start="20261006230000 +0000" stop="20261007023000 +0000" channel="Sports.Perso">
+    <title>🏒 CAR @ MTL</title>
+    <desc>Fiche: CAR(None) @ MTL(None) | 📺 TSN2, RDS</desc>
+  </programme>
+  <programme start="20261006230000 +0000" stop="20261007023000 +0000" channel="Sports.Perso">
+    <title>🏒 UTA @ NJD</title>
+    <desc>Fiche: UTA(None) @ NJD(None)</desc>
+  </programme>
+  <programme start="20261006230000 +0000" stop="20261007023000 +0000" channel="Sports.Perso">
+    <title>🏒 MIN @ BUF</title>
+    <desc>Fiche: MIN(None) @ BUF(None)</desc>
   </programme>
 </tv>
