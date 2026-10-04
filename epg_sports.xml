@@ -3,23 +3,6 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261003220311 +0000" stop="20261003230000 +0000" channel="Sports.Perso">
-    <title>⏳ Prochain : MTL @ PIT</title>
-    <desc>CALENDRIER :
-• 03/10 19:00 : MTL @ PIT
-• 03/10 19:00 : UTA @ CBJ
-• 03/10 19:00 : CHI @ BUF
-• 03/10 21:00 : STL @ COL
-• 04/10 18:00 : UTA @ NYR
-• 06/10 19:00 : CAR @ MTL
-• 06/10 19:00 : UTA @ NJD
-• 06/10 19:00 : MIN @ BUF
-• 07/10 19:30 : COL @ WPG
-• 08/10 19:00 : NSH @ MTL
-• 08/10 19:00 : UTA @ BOS
-• 08/10 19:00 : DAL @ BUF
-• 08/10 21:00 : COL @ CGY</desc>
-  </programme>
   <programme start="20261003230000 +0000" stop="20261004023000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ PIT</title>
     <desc>Fiche: MTL(None) @ PIT(None) | 📺 SNE, TVAS</desc>
