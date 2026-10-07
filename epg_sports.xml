@@ -3,19 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261006230000 +0000" stop="20261007023000 +0000" channel="Sports.Perso">
-    <title>🏒 CAR @ MTL</title>
-    <desc>Fiche: CAR(None) @ MTL(None) | 📺 TSN2, RDS</desc>
-  </programme>
-  <programme start="20261006230000 +0000" stop="20261007023000 +0000" channel="Sports.Perso">
-    <title>🏒 UTA @ NJD</title>
-    <desc>Fiche: UTA(None) @ NJD(None)</desc>
-  </programme>
-  <programme start="20261006230000 +0000" stop="20261007023000 +0000" channel="Sports.Perso">
-    <title>🏒 MIN @ BUF</title>
-    <desc>Fiche: MIN(None) @ BUF(None)</desc>
-  </programme>
-  <programme start="20261007023000 +0000" stop="20261007233000 +0000" channel="Sports.Perso">
+  <programme start="20261007171212 +0000" stop="20261007233000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : COL @ WPG</title>
     <desc>CALENDRIER :
 • 07/10 19:30 : COL @ WPG
@@ -26,7 +14,10 @@
 • 10/10 19:00 : DET @ MTL
 • 10/10 19:00 : TOR @ COL
 • 10/10 19:00 : UTA @ BUF
-• 12/10 13:00 : FLA @ BUF</desc>
+• 12/10 13:00 : FLA @ BUF
+• 13/10 18:30 : BUF @ MTL
+• 13/10 20:30 : COL @ DAL
+• 13/10 21:00 : TOR @ UTA</desc>
   </programme>
   <programme start="20261007233000 +0000" stop="20261008030000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ WPG</title>
@@ -42,7 +33,10 @@
 • 10/10 19:00 : DET @ MTL
 • 10/10 19:00 : TOR @ COL
 • 10/10 19:00 : UTA @ BUF
-• 12/10 13:00 : FLA @ BUF</desc>
+• 12/10 13:00 : FLA @ BUF
+• 13/10 18:30 : BUF @ MTL
+• 13/10 20:30 : COL @ DAL
+• 13/10 21:00 : TOR @ UTA</desc>
   </programme>
   <programme start="20261008230000 +0000" stop="20261009023000 +0000" channel="Sports.Perso">
     <title>🏒 NSH @ MTL</title>
@@ -66,7 +60,10 @@
 • 10/10 19:00 : DET @ MTL
 • 10/10 19:00 : TOR @ COL
 • 10/10 19:00 : UTA @ BUF
-• 12/10 13:00 : FLA @ BUF</desc>
+• 12/10 13:00 : FLA @ BUF
+• 13/10 18:30 : BUF @ MTL
+• 13/10 20:30 : COL @ DAL
+• 13/10 21:00 : TOR @ UTA</desc>
   </programme>
   <programme start="20261010230000 +0000" stop="20261011023000 +0000" channel="Sports.Perso">
     <title>🏒 DET @ MTL</title>
@@ -83,10 +80,32 @@
   <programme start="20261011023000 +0000" stop="20261012170000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : FLA @ BUF</title>
     <desc>CALENDRIER :
-• 12/10 13:00 : FLA @ BUF</desc>
+• 12/10 13:00 : FLA @ BUF
+• 13/10 18:30 : BUF @ MTL
+• 13/10 20:30 : COL @ DAL
+• 13/10 21:00 : TOR @ UTA</desc>
   </programme>
   <programme start="20261012170000 +0000" stop="20261012203000 +0000" channel="Sports.Perso">
     <title>🏒 FLA @ BUF</title>
     <desc>Fiche: FLA(None) @ BUF(None) | 📺 SN, TVAS</desc>
+  </programme>
+  <programme start="20261012203000 +0000" stop="20261013223000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : BUF @ MTL</title>
+    <desc>CALENDRIER :
+• 13/10 18:30 : BUF @ MTL
+• 13/10 20:30 : COL @ DAL
+• 13/10 21:00 : TOR @ UTA</desc>
+  </programme>
+  <programme start="20261013223000 +0000" stop="20261014020000 +0000" channel="Sports.Perso">
+    <title>🏒 BUF @ MTL</title>
+    <desc>Fiche: BUF(None) @ MTL(None) | 📺 TSN2, RDS</desc>
+  </programme>
+  <programme start="20261014003000 +0000" stop="20261014040000 +0000" channel="Sports.Perso">
+    <title>🏒 COL @ DAL</title>
+    <desc>Fiche: COL(None) @ DAL(None) | 📺 SN+, TVAS</desc>
+  </programme>
+  <programme start="20261014010000 +0000" stop="20261014043000 +0000" channel="Sports.Perso">
+    <title>🏒 TOR @ UTA</title>
+    <desc>Fiche: TOR(None) @ UTA(None) | 📺 TSN4</desc>
   </programme>
 </tv>
