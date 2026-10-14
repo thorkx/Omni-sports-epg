@@ -3,19 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261013223000 +0000" stop="20261014020000 +0000" channel="Sports.Perso">
-    <title>🏒 BUF @ MTL</title>
-    <desc>Fiche: BUF(None) @ MTL(None) | 📺 TSN2, RDS</desc>
-  </programme>
-  <programme start="20261014003000 +0000" stop="20261014040000 +0000" channel="Sports.Perso">
-    <title>🏒 COL @ DAL</title>
-    <desc>Fiche: COL(None) @ DAL(None) | 📺 SN+, TVAS</desc>
-  </programme>
-  <programme start="20261014010000 +0000" stop="20261014043000 +0000" channel="Sports.Perso">
-    <title>🏒 TOR @ UTA</title>
-    <desc>Fiche: TOR(None) @ UTA(None) | 📺 TSN4</desc>
-  </programme>
-  <programme start="20261014043000 +0000" stop="20261014233000 +0000" channel="Sports.Perso">
+  <programme start="20261014162631 +0000" stop="20261014233000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ WSH</title>
     <desc>CALENDRIER :
 • 14/10 19:30 : MTL @ WSH
@@ -26,7 +14,9 @@
 • 17/10 19:00 : BUF @ MTL
 • 17/10 22:00 : EDM @ UTA
 • 19/10 19:00 : COL @ PHI
-• 19/10 21:00 : PIT @ UTA</desc>
+• 19/10 21:00 : PIT @ UTA
+• 20/10 19:00 : SJS @ MTL
+• 20/10 19:00 : COL @ NJD</desc>
   </programme>
   <programme start="20261014233000 +0000" stop="20261015030000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ WSH</title>
@@ -45,7 +35,9 @@
 • 17/10 19:00 : BUF @ MTL
 • 17/10 22:00 : EDM @ UTA
 • 19/10 19:00 : COL @ PHI
-• 19/10 21:00 : PIT @ UTA</desc>
+• 19/10 21:00 : PIT @ UTA
+• 20/10 19:00 : SJS @ MTL
+• 20/10 19:00 : COL @ NJD</desc>
   </programme>
   <programme start="20261015230000 +0000" stop="20261016023000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ TOR</title>
@@ -62,7 +54,9 @@
 • 17/10 19:00 : BUF @ MTL
 • 17/10 22:00 : EDM @ UTA
 • 19/10 19:00 : COL @ PHI
-• 19/10 21:00 : PIT @ UTA</desc>
+• 19/10 21:00 : PIT @ UTA
+• 20/10 19:00 : SJS @ MTL
+• 20/10 19:00 : COL @ NJD</desc>
   </programme>
   <programme start="20261017010000 +0000" stop="20261017043000 +0000" channel="Sports.Perso">
     <title>🏒 PIT @ COL</title>
@@ -74,7 +68,9 @@
 • 17/10 19:00 : BUF @ MTL
 • 17/10 22:00 : EDM @ UTA
 • 19/10 19:00 : COL @ PHI
-• 19/10 21:00 : PIT @ UTA</desc>
+• 19/10 21:00 : PIT @ UTA
+• 20/10 19:00 : SJS @ MTL
+• 20/10 19:00 : COL @ NJD</desc>
   </programme>
   <programme start="20261017230000 +0000" stop="20261018023000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ MTL</title>
@@ -88,7 +84,9 @@
     <title>⏳ Prochain : COL @ PHI</title>
     <desc>CALENDRIER :
 • 19/10 19:00 : COL @ PHI
-• 19/10 21:00 : PIT @ UTA</desc>
+• 19/10 21:00 : PIT @ UTA
+• 20/10 19:00 : SJS @ MTL
+• 20/10 19:00 : COL @ NJD</desc>
   </programme>
   <programme start="20261019230000 +0000" stop="20261020023000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ PHI</title>
@@ -97,5 +95,19 @@
   <programme start="20261020010000 +0000" stop="20261020043000 +0000" channel="Sports.Perso">
     <title>🏒 PIT @ UTA</title>
     <desc>Fiche: PIT(None) @ UTA(None) | 📺 SN+, TVAS</desc>
+  </programme>
+  <programme start="20261020043000 +0000" stop="20261020230000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : SJS @ MTL</title>
+    <desc>CALENDRIER :
+• 20/10 19:00 : SJS @ MTL
+• 20/10 19:00 : COL @ NJD</desc>
+  </programme>
+  <programme start="20261020230000 +0000" stop="20261021023000 +0000" channel="Sports.Perso">
+    <title>🏒 SJS @ MTL</title>
+    <desc>Fiche: SJS(None) @ MTL(None) | 📺 TSN2, RDS</desc>
+  </programme>
+  <programme start="20261020230000 +0000" stop="20261021023000 +0000" channel="Sports.Perso">
+    <title>🏒 COL @ NJD</title>
+    <desc>Fiche: COL(None) @ NJD(None)</desc>
   </programme>
 </tv>
