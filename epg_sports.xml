@@ -3,15 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261014233000 +0000" stop="20261015030000 +0000" channel="Sports.Perso">
-    <title>🏒 MTL @ WSH</title>
-    <desc>Fiche: MTL(None) @ WSH(None) | 📺 Prime</desc>
-  </programme>
-  <programme start="20261015003000 +0000" stop="20261015040000 +0000" channel="Sports.Perso">
-    <title>🏒 DAL @ COL</title>
-    <desc>Fiche: DAL(None) @ COL(None)</desc>
-  </programme>
-  <programme start="20261015040000 +0000" stop="20261015230000 +0000" channel="Sports.Perso">
+  <programme start="20261015175915 +0000" stop="20261015230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : BUF @ TOR</title>
     <desc>CALENDRIER :
 • 15/10 19:00 : BUF @ TOR
@@ -22,7 +14,8 @@
 • 19/10 19:00 : COL @ PHI
 • 19/10 21:00 : PIT @ UTA
 • 20/10 19:00 : SJS @ MTL
-• 20/10 19:00 : COL @ NJD</desc>
+• 20/10 19:00 : COL @ NJD
+• 21/10 19:30 : PHI @ BUF</desc>
   </programme>
   <programme start="20261015230000 +0000" stop="20261016023000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ TOR</title>
@@ -41,7 +34,8 @@
 • 19/10 19:00 : COL @ PHI
 • 19/10 21:00 : PIT @ UTA
 • 20/10 19:00 : SJS @ MTL
-• 20/10 19:00 : COL @ NJD</desc>
+• 20/10 19:00 : COL @ NJD
+• 21/10 19:30 : PHI @ BUF</desc>
   </programme>
   <programme start="20261017010000 +0000" stop="20261017043000 +0000" channel="Sports.Perso">
     <title>🏒 PIT @ COL</title>
@@ -55,7 +49,8 @@
 • 19/10 19:00 : COL @ PHI
 • 19/10 21:00 : PIT @ UTA
 • 20/10 19:00 : SJS @ MTL
-• 20/10 19:00 : COL @ NJD</desc>
+• 20/10 19:00 : COL @ NJD
+• 21/10 19:30 : PHI @ BUF</desc>
   </programme>
   <programme start="20261017230000 +0000" stop="20261018023000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ MTL</title>
@@ -71,7 +66,8 @@
 • 19/10 19:00 : COL @ PHI
 • 19/10 21:00 : PIT @ UTA
 • 20/10 19:00 : SJS @ MTL
-• 20/10 19:00 : COL @ NJD</desc>
+• 20/10 19:00 : COL @ NJD
+• 21/10 19:30 : PHI @ BUF</desc>
   </programme>
   <programme start="20261019230000 +0000" stop="20261020023000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ PHI</title>
@@ -85,7 +81,8 @@
     <title>⏳ Prochain : SJS @ MTL</title>
     <desc>CALENDRIER :
 • 20/10 19:00 : SJS @ MTL
-• 20/10 19:00 : COL @ NJD</desc>
+• 20/10 19:00 : COL @ NJD
+• 21/10 19:30 : PHI @ BUF</desc>
   </programme>
   <programme start="20261020230000 +0000" stop="20261021023000 +0000" channel="Sports.Perso">
     <title>🏒 SJS @ MTL</title>
@@ -94,5 +91,14 @@
   <programme start="20261020230000 +0000" stop="20261021023000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ NJD</title>
     <desc>Fiche: COL(None) @ NJD(None)</desc>
+  </programme>
+  <programme start="20261021023000 +0000" stop="20261021233000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : PHI @ BUF</title>
+    <desc>CALENDRIER :
+• 21/10 19:30 : PHI @ BUF</desc>
+  </programme>
+  <programme start="20261021233000 +0000" stop="20261022030000 +0000" channel="Sports.Perso">
+    <title>🏒 PHI @ BUF</title>
+    <desc>Fiche: PHI(None) @ BUF(None)</desc>
   </programme>
 </tv>
