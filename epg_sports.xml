@@ -3,7 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261019120021 +0000" stop="20261019230000 +0000" channel="Sports.Perso">
+  <programme start="20261019185744 +0000" stop="20261019230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : COL @ PHI</title>
     <desc>CALENDRIER :
 • 19/10 19:00 : COL @ PHI
@@ -15,7 +15,9 @@
 • 23/10 20:00 : MTL @ CHI
 • 23/10 21:00 : TBL @ COL
 • 24/10 19:00 : BUF @ WSH
-• 24/10 21:00 : TBL @ UTA</desc>
+• 24/10 21:00 : TBL @ UTA
+• 25/10 19:00 : MTL @ WPG
+• 25/10 20:00 : COL @ NSH</desc>
   </programme>
   <programme start="20261019230000 +0000" stop="20261020023000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ PHI</title>
@@ -35,7 +37,9 @@
 • 23/10 20:00 : MTL @ CHI
 • 23/10 21:00 : TBL @ COL
 • 24/10 19:00 : BUF @ WSH
-• 24/10 21:00 : TBL @ UTA</desc>
+• 24/10 21:00 : TBL @ UTA
+• 25/10 19:00 : MTL @ WPG
+• 25/10 20:00 : COL @ NSH</desc>
   </programme>
   <programme start="20261020230000 +0000" stop="20261021023000 +0000" channel="Sports.Perso">
     <title>🏒 SJS @ MTL</title>
@@ -53,7 +57,9 @@
 • 23/10 20:00 : MTL @ CHI
 • 23/10 21:00 : TBL @ COL
 • 24/10 19:00 : BUF @ WSH
-• 24/10 21:00 : TBL @ UTA</desc>
+• 24/10 21:00 : TBL @ UTA
+• 25/10 19:00 : MTL @ WPG
+• 25/10 20:00 : COL @ NSH</desc>
   </programme>
   <programme start="20261021233000 +0000" stop="20261022030000 +0000" channel="Sports.Perso">
     <title>🏒 PHI @ BUF</title>
@@ -66,7 +72,9 @@
 • 23/10 20:00 : MTL @ CHI
 • 23/10 21:00 : TBL @ COL
 • 24/10 19:00 : BUF @ WSH
-• 24/10 21:00 : TBL @ UTA</desc>
+• 24/10 21:00 : TBL @ UTA
+• 25/10 19:00 : MTL @ WPG
+• 25/10 20:00 : COL @ NSH</desc>
   </programme>
   <programme start="20261023020000 +0000" stop="20261023053000 +0000" channel="Sports.Perso">
     <title>🏒 UTA @ SEA</title>
@@ -78,7 +86,9 @@
 • 23/10 20:00 : MTL @ CHI
 • 23/10 21:00 : TBL @ COL
 • 24/10 19:00 : BUF @ WSH
-• 24/10 21:00 : TBL @ UTA</desc>
+• 24/10 21:00 : TBL @ UTA
+• 25/10 19:00 : MTL @ WPG
+• 25/10 20:00 : COL @ NSH</desc>
   </programme>
   <programme start="20261024000000 +0000" stop="20261024033000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ CHI</title>
@@ -92,7 +102,9 @@
     <title>⏳ Prochain : BUF @ WSH</title>
     <desc>CALENDRIER :
 • 24/10 19:00 : BUF @ WSH
-• 24/10 21:00 : TBL @ UTA</desc>
+• 24/10 21:00 : TBL @ UTA
+• 25/10 19:00 : MTL @ WPG
+• 25/10 20:00 : COL @ NSH</desc>
   </programme>
   <programme start="20261024230000 +0000" stop="20261025023000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ WSH</title>
@@ -101,5 +113,19 @@
   <programme start="20261025010000 +0000" stop="20261025043000 +0000" channel="Sports.Perso">
     <title>🏒 TBL @ UTA</title>
     <desc>Fiche: TBL(None) @ UTA(None)</desc>
+  </programme>
+  <programme start="20261025043000 +0000" stop="20261025230000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : MTL @ WPG</title>
+    <desc>CALENDRIER :
+• 25/10 19:00 : MTL @ WPG
+• 25/10 20:00 : COL @ NSH</desc>
+  </programme>
+  <programme start="20261025230000 +0000" stop="20261026023000 +0000" channel="Sports.Perso">
+    <title>🏒 MTL @ WPG</title>
+    <desc>Fiche: MTL(None) @ WPG(None) | 📺 SN, TVAS</desc>
+  </programme>
+  <programme start="20261026000000 +0000" stop="20261026033000 +0000" channel="Sports.Perso">
+    <title>🏒 COL @ NSH</title>
+    <desc>Fiche: COL(None) @ NSH(None)</desc>
   </programme>
 </tv>
