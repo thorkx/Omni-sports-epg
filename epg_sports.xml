@@ -3,20 +3,6 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261020220257 +0000" stop="20261020230000 +0000" channel="Sports.Perso">
-    <title>⏳ Prochain : SJS @ MTL</title>
-    <desc>CALENDRIER :
-• 20/10 19:00 : SJS @ MTL
-• 20/10 19:00 : COL @ NJD
-• 21/10 19:30 : PHI @ BUF
-• 22/10 22:00 : UTA @ SEA
-• 23/10 20:00 : MTL @ CHI
-• 23/10 21:00 : TBL @ COL
-• 24/10 19:00 : BUF @ WSH
-• 24/10 21:00 : TBL @ UTA
-• 25/10 19:00 : MTL @ WPG
-• 25/10 20:00 : COL @ NSH</desc>
-  </programme>
   <programme start="20261020230000 +0000" stop="20261021023000 +0000" channel="Sports.Perso">
     <title>🏒 SJS @ MTL</title>
     <desc>Fiche: SJS(None) @ MTL(None) | 📺 TSN2, RDS</desc>
