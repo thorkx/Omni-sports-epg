@@ -3,15 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261024000000 +0000" stop="20261024033000 +0000" channel="Sports.Perso">
-    <title>🏒 MTL @ CHI</title>
-    <desc>Fiche: MTL(None) @ CHI(None) | 📺 TSN2, RDS</desc>
-  </programme>
-  <programme start="20261024010000 +0000" stop="20261024043000 +0000" channel="Sports.Perso">
-    <title>🏒 TBL @ COL</title>
-    <desc>Fiche: TBL(None) @ COL(None) | 📺 SN360, TVAS</desc>
-  </programme>
-  <programme start="20261024043000 +0000" stop="20261024230000 +0000" channel="Sports.Perso">
+  <programme start="20261024174808 +0000" stop="20261024230000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : BUF @ WSH</title>
     <desc>CALENDRIER :
 • 24/10 19:00 : BUF @ WSH
