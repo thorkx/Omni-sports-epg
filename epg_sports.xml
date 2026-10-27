@@ -3,7 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261027135424 +0000" stop="20261028000000 +0000" channel="Sports.Perso">
+  <programme start="20261027191139 +0000" stop="20261028000000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ STL</title>
     <desc>CALENDRIER :
 • 27/10 20:00 : MTL @ STL
@@ -16,7 +16,8 @@
 • 31/10 16:00 : BUF @ LAK
 • 31/10 19:00 : PIT @ MTL
 • 31/10 22:00 : CGY @ COL
-• 01/11 16:00 : UTA @ PHI</desc>
+• 01/11 16:00 : UTA @ PHI
+• 02/11 20:00 : COL @ CHI</desc>
   </programme>
   <programme start="20261028000000 +0000" stop="20261028033000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ STL</title>
@@ -40,7 +41,8 @@
 • 31/10 16:00 : BUF @ LAK
 • 31/10 19:00 : PIT @ MTL
 • 31/10 22:00 : CGY @ COL
-• 01/11 16:00 : UTA @ PHI</desc>
+• 01/11 16:00 : UTA @ PHI
+• 02/11 20:00 : COL @ CHI</desc>
   </programme>
   <programme start="20261029010000 +0000" stop="20261029043000 +0000" channel="Sports.Perso">
     <title>🏒 NJD @ COL</title>
@@ -55,7 +57,8 @@
 • 31/10 16:00 : BUF @ LAK
 • 31/10 19:00 : PIT @ MTL
 • 31/10 22:00 : CGY @ COL
-• 01/11 16:00 : UTA @ PHI</desc>
+• 01/11 16:00 : UTA @ PHI
+• 02/11 20:00 : COL @ CHI</desc>
   </programme>
   <programme start="20261029230000 +0000" stop="20261030023000 +0000" channel="Sports.Perso">
     <title>🏒 UTA @ PIT</title>
@@ -75,7 +78,8 @@
 • 31/10 16:00 : BUF @ LAK
 • 31/10 19:00 : PIT @ MTL
 • 31/10 22:00 : CGY @ COL
-• 01/11 16:00 : UTA @ PHI</desc>
+• 01/11 16:00 : UTA @ PHI
+• 02/11 20:00 : COL @ CHI</desc>
   </programme>
   <programme start="20261031200000 +0000" stop="20261031233000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ LAK</title>
@@ -92,10 +96,20 @@
   <programme start="20261101053000 +0000" stop="20261101210000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : UTA @ PHI</title>
     <desc>CALENDRIER :
-• 01/11 16:00 : UTA @ PHI</desc>
+• 01/11 16:00 : UTA @ PHI
+• 02/11 20:00 : COL @ CHI</desc>
   </programme>
   <programme start="20261101210000 +0000" stop="20261102003000 +0000" channel="Sports.Perso">
     <title>🏒 UTA @ PHI</title>
     <desc>Fiche: UTA(None) @ PHI(None) | 📺 SN1</desc>
+  </programme>
+  <programme start="20261102003000 +0000" stop="20261103010000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : COL @ CHI</title>
+    <desc>CALENDRIER :
+• 02/11 20:00 : COL @ CHI</desc>
+  </programme>
+  <programme start="20261103010000 +0000" stop="20261103043000 +0000" channel="Sports.Perso">
+    <title>🏒 COL @ CHI</title>
+    <desc>Fiche: COL(None) @ CHI(None)</desc>
   </programme>
 </tv>
