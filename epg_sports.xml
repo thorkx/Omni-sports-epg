@@ -3,7 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261031145855 +0000" stop="20261031200000 +0000" channel="Sports.Perso">
+  <programme start="20261031191114 +0000" stop="20261031200000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : BUF @ LAK</title>
     <desc>CALENDRIER :
 • 31/10 16:00 : BUF @ LAK
@@ -16,7 +16,8 @@
 • 03/11 19:00 : UTA @ TOR
 • 04/11 19:30 : OTT @ BUF
 • 05/11 19:00 : UTA @ MTL
-• 05/11 21:30 : NSH @ COL</desc>
+• 05/11 21:30 : NSH @ COL
+• 06/11 19:00 : CBJ @ BUF</desc>
   </programme>
   <programme start="20261031200000 +0000" stop="20261031233000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ LAK</title>
@@ -40,7 +41,8 @@
 • 03/11 19:00 : UTA @ TOR
 • 04/11 19:30 : OTT @ BUF
 • 05/11 19:00 : UTA @ MTL
-• 05/11 21:30 : NSH @ COL</desc>
+• 05/11 21:30 : NSH @ COL
+• 06/11 19:00 : CBJ @ BUF</desc>
   </programme>
   <programme start="20261101210000 +0000" stop="20261102003000 +0000" channel="Sports.Perso">
     <title>🏒 UTA @ PHI</title>
@@ -55,7 +57,8 @@
 • 03/11 19:00 : UTA @ TOR
 • 04/11 19:30 : OTT @ BUF
 • 05/11 19:00 : UTA @ MTL
-• 05/11 21:30 : NSH @ COL</desc>
+• 05/11 21:30 : NSH @ COL
+• 06/11 19:00 : CBJ @ BUF</desc>
   </programme>
   <programme start="20261103010000 +0000" stop="20261103043000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ CHI</title>
@@ -69,7 +72,8 @@
 • 03/11 19:00 : UTA @ TOR
 • 04/11 19:30 : OTT @ BUF
 • 05/11 19:00 : UTA @ MTL
-• 05/11 21:30 : NSH @ COL</desc>
+• 05/11 21:30 : NSH @ COL
+• 06/11 19:00 : CBJ @ BUF</desc>
   </programme>
   <programme start="20261104000000 +0000" stop="20261104033000 +0000" channel="Sports.Perso">
     <title>🏒 WPG @ MTL</title>
@@ -88,7 +92,8 @@
     <desc>CALENDRIER :
 • 04/11 19:30 : OTT @ BUF
 • 05/11 19:00 : UTA @ MTL
-• 05/11 21:30 : NSH @ COL</desc>
+• 05/11 21:30 : NSH @ COL
+• 06/11 19:00 : CBJ @ BUF</desc>
   </programme>
   <programme start="20261105003000 +0000" stop="20261105040000 +0000" channel="Sports.Perso">
     <title>🏒 OTT @ BUF</title>
@@ -98,7 +103,8 @@
     <title>⏳ Prochain : UTA @ MTL</title>
     <desc>CALENDRIER :
 • 05/11 19:00 : UTA @ MTL
-• 05/11 21:30 : NSH @ COL</desc>
+• 05/11 21:30 : NSH @ COL
+• 06/11 19:00 : CBJ @ BUF</desc>
   </programme>
   <programme start="20261106000000 +0000" stop="20261106033000 +0000" channel="Sports.Perso">
     <title>🏒 UTA @ MTL</title>
@@ -107,5 +113,14 @@
   <programme start="20261106023000 +0000" stop="20261106060000 +0000" channel="Sports.Perso">
     <title>🏒 NSH @ COL</title>
     <desc>Fiche: NSH(None) @ COL(None) | 📺 SN+, TVAS</desc>
+  </programme>
+  <programme start="20261106060000 +0000" stop="20261107000000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : CBJ @ BUF</title>
+    <desc>CALENDRIER :
+• 06/11 19:00 : CBJ @ BUF</desc>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261107033000 +0000" channel="Sports.Perso">
+    <title>🏒 CBJ @ BUF</title>
+    <desc>Fiche: CBJ(None) @ BUF(None) | 📺 SN+, TVAS</desc>
   </programme>
 </tv>
