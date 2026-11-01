@@ -3,19 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261031200000 +0000" stop="20261031233000 +0000" channel="Sports.Perso">
-    <title>🏒 BUF @ LAK</title>
-    <desc>Fiche: BUF(None) @ LAK(None) | 📺 SN1</desc>
-  </programme>
-  <programme start="20261031230000 +0000" stop="20261101023000 +0000" channel="Sports.Perso">
-    <title>🏒 PIT @ MTL</title>
-    <desc>Fiche: PIT(None) @ MTL(None) | 📺 SNE, SN1, TVAS</desc>
-  </programme>
-  <programme start="20261101020000 +0000" stop="20261101053000 +0000" channel="Sports.Perso">
-    <title>🏒 CGY @ COL</title>
-    <desc>Fiche: CGY(None) @ COL(None) | 📺 SN</desc>
-  </programme>
-  <programme start="20261101053000 +0000" stop="20261101210000 +0000" channel="Sports.Perso">
+  <programme start="20261101173523 +0000" stop="20261101210000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : UTA @ PHI</title>
     <desc>CALENDRIER :
 • 01/11 16:00 : UTA @ PHI
@@ -26,7 +14,10 @@
 • 04/11 19:30 : OTT @ BUF
 • 05/11 19:00 : UTA @ MTL
 • 05/11 21:30 : NSH @ COL
-• 06/11 19:00 : CBJ @ BUF</desc>
+• 06/11 19:00 : CBJ @ BUF
+• 07/11 19:00 : MTL @ TOR
+• 07/11 19:00 : UTA @ OTT
+• 07/11 21:00 : DET @ COL</desc>
   </programme>
   <programme start="20261101210000 +0000" stop="20261102003000 +0000" channel="Sports.Perso">
     <title>🏒 UTA @ PHI</title>
@@ -42,7 +33,10 @@
 • 04/11 19:30 : OTT @ BUF
 • 05/11 19:00 : UTA @ MTL
 • 05/11 21:30 : NSH @ COL
-• 06/11 19:00 : CBJ @ BUF</desc>
+• 06/11 19:00 : CBJ @ BUF
+• 07/11 19:00 : MTL @ TOR
+• 07/11 19:00 : UTA @ OTT
+• 07/11 21:00 : DET @ COL</desc>
   </programme>
   <programme start="20261103010000 +0000" stop="20261103043000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ CHI</title>
@@ -57,7 +51,10 @@
 • 04/11 19:30 : OTT @ BUF
 • 05/11 19:00 : UTA @ MTL
 • 05/11 21:30 : NSH @ COL
-• 06/11 19:00 : CBJ @ BUF</desc>
+• 06/11 19:00 : CBJ @ BUF
+• 07/11 19:00 : MTL @ TOR
+• 07/11 19:00 : UTA @ OTT
+• 07/11 21:00 : DET @ COL</desc>
   </programme>
   <programme start="20261104000000 +0000" stop="20261104033000 +0000" channel="Sports.Perso">
     <title>🏒 WPG @ MTL</title>
@@ -77,7 +74,10 @@
 • 04/11 19:30 : OTT @ BUF
 • 05/11 19:00 : UTA @ MTL
 • 05/11 21:30 : NSH @ COL
-• 06/11 19:00 : CBJ @ BUF</desc>
+• 06/11 19:00 : CBJ @ BUF
+• 07/11 19:00 : MTL @ TOR
+• 07/11 19:00 : UTA @ OTT
+• 07/11 21:00 : DET @ COL</desc>
   </programme>
   <programme start="20261105003000 +0000" stop="20261105040000 +0000" channel="Sports.Perso">
     <title>🏒 OTT @ BUF</title>
@@ -88,7 +88,10 @@
     <desc>CALENDRIER :
 • 05/11 19:00 : UTA @ MTL
 • 05/11 21:30 : NSH @ COL
-• 06/11 19:00 : CBJ @ BUF</desc>
+• 06/11 19:00 : CBJ @ BUF
+• 07/11 19:00 : MTL @ TOR
+• 07/11 19:00 : UTA @ OTT
+• 07/11 21:00 : DET @ COL</desc>
   </programme>
   <programme start="20261106000000 +0000" stop="20261106033000 +0000" channel="Sports.Perso">
     <title>🏒 UTA @ MTL</title>
@@ -101,10 +104,32 @@
   <programme start="20261106060000 +0000" stop="20261107000000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : CBJ @ BUF</title>
     <desc>CALENDRIER :
-• 06/11 19:00 : CBJ @ BUF</desc>
+• 06/11 19:00 : CBJ @ BUF
+• 07/11 19:00 : MTL @ TOR
+• 07/11 19:00 : UTA @ OTT
+• 07/11 21:00 : DET @ COL</desc>
   </programme>
   <programme start="20261107000000 +0000" stop="20261107033000 +0000" channel="Sports.Perso">
     <title>🏒 CBJ @ BUF</title>
     <desc>Fiche: CBJ(None) @ BUF(None) | 📺 SN+, TVAS</desc>
+  </programme>
+  <programme start="20261107033000 +0000" stop="20261108000000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : MTL @ TOR</title>
+    <desc>CALENDRIER :
+• 07/11 19:00 : MTL @ TOR
+• 07/11 19:00 : UTA @ OTT
+• 07/11 21:00 : DET @ COL</desc>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261108033000 +0000" channel="Sports.Perso">
+    <title>🏒 MTL @ TOR</title>
+    <desc>Fiche: MTL(None) @ TOR(None) | 📺 SN, TVAS</desc>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261108033000 +0000" channel="Sports.Perso">
+    <title>🏒 UTA @ OTT</title>
+    <desc>Fiche: UTA(None) @ OTT(None) | 📺 SN1, TVAS-D</desc>
+  </programme>
+  <programme start="20261108020000 +0000" stop="20261108053000 +0000" channel="Sports.Perso">
+    <title>🏒 DET @ COL</title>
+    <desc>Fiche: DET(None) @ COL(None)</desc>
   </programme>
 </tv>
