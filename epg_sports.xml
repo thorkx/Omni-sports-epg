@@ -3,11 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261101210000 +0000" stop="20261102003000 +0000" channel="Sports.Perso">
-    <title>🏒 UTA @ PHI</title>
-    <desc>Fiche: UTA(None) @ PHI(None) | 📺 SN1</desc>
-  </programme>
-  <programme start="20261102003000 +0000" stop="20261103010000 +0000" channel="Sports.Perso">
+  <programme start="20261102190650 +0000" stop="20261103010000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : COL @ CHI</title>
     <desc>CALENDRIER :
 • 02/11 20:00 : COL @ CHI
@@ -20,7 +16,8 @@
 • 06/11 19:00 : CBJ @ BUF
 • 07/11 19:00 : MTL @ TOR
 • 07/11 19:00 : UTA @ OTT
-• 07/11 21:00 : DET @ COL</desc>
+• 07/11 21:00 : DET @ COL
+• 08/11 15:30 : VGK @ BUF</desc>
   </programme>
   <programme start="20261103010000 +0000" stop="20261103043000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ CHI</title>
@@ -38,7 +35,8 @@
 • 06/11 19:00 : CBJ @ BUF
 • 07/11 19:00 : MTL @ TOR
 • 07/11 19:00 : UTA @ OTT
-• 07/11 21:00 : DET @ COL</desc>
+• 07/11 21:00 : DET @ COL
+• 08/11 15:30 : VGK @ BUF</desc>
   </programme>
   <programme start="20261104000000 +0000" stop="20261104033000 +0000" channel="Sports.Perso">
     <title>🏒 WPG @ MTL</title>
@@ -61,7 +59,8 @@
 • 06/11 19:00 : CBJ @ BUF
 • 07/11 19:00 : MTL @ TOR
 • 07/11 19:00 : UTA @ OTT
-• 07/11 21:00 : DET @ COL</desc>
+• 07/11 21:00 : DET @ COL
+• 08/11 15:30 : VGK @ BUF</desc>
   </programme>
   <programme start="20261105003000 +0000" stop="20261105040000 +0000" channel="Sports.Perso">
     <title>🏒 OTT @ BUF</title>
@@ -75,7 +74,8 @@
 • 06/11 19:00 : CBJ @ BUF
 • 07/11 19:00 : MTL @ TOR
 • 07/11 19:00 : UTA @ OTT
-• 07/11 21:00 : DET @ COL</desc>
+• 07/11 21:00 : DET @ COL
+• 08/11 15:30 : VGK @ BUF</desc>
   </programme>
   <programme start="20261106000000 +0000" stop="20261106033000 +0000" channel="Sports.Perso">
     <title>🏒 UTA @ MTL</title>
@@ -91,7 +91,8 @@
 • 06/11 19:00 : CBJ @ BUF
 • 07/11 19:00 : MTL @ TOR
 • 07/11 19:00 : UTA @ OTT
-• 07/11 21:00 : DET @ COL</desc>
+• 07/11 21:00 : DET @ COL
+• 08/11 15:30 : VGK @ BUF</desc>
   </programme>
   <programme start="20261107000000 +0000" stop="20261107033000 +0000" channel="Sports.Perso">
     <title>🏒 CBJ @ BUF</title>
@@ -102,7 +103,8 @@
     <desc>CALENDRIER :
 • 07/11 19:00 : MTL @ TOR
 • 07/11 19:00 : UTA @ OTT
-• 07/11 21:00 : DET @ COL</desc>
+• 07/11 21:00 : DET @ COL
+• 08/11 15:30 : VGK @ BUF</desc>
   </programme>
   <programme start="20261108000000 +0000" stop="20261108033000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ TOR</title>
@@ -115,5 +117,14 @@
   <programme start="20261108020000 +0000" stop="20261108053000 +0000" channel="Sports.Perso">
     <title>🏒 DET @ COL</title>
     <desc>Fiche: DET(None) @ COL(None)</desc>
+  </programme>
+  <programme start="20261108053000 +0000" stop="20261108203000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : VGK @ BUF</title>
+    <desc>CALENDRIER :
+• 08/11 15:30 : VGK @ BUF</desc>
+  </programme>
+  <programme start="20261108203000 +0000" stop="20261109000000 +0000" channel="Sports.Perso">
+    <title>🏒 VGK @ BUF</title>
+    <desc>Fiche: VGK(None) @ BUF(None) | 📺 SN1, TVAS</desc>
   </programme>
 </tv>
