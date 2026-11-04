@@ -3,21 +3,6 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261103225050 +0000" stop="20261104000000 +0000" channel="Sports.Perso">
-    <title>⏳ Prochain : WPG @ MTL</title>
-    <desc>CALENDRIER :
-• 03/11 19:00 : WPG @ MTL
-• 03/11 19:00 : COL @ CBJ
-• 03/11 19:00 : UTA @ TOR
-• 04/11 19:30 : OTT @ BUF
-• 05/11 19:00 : UTA @ MTL
-• 05/11 21:30 : NSH @ COL
-• 06/11 19:00 : CBJ @ BUF
-• 07/11 19:00 : MTL @ TOR
-• 07/11 19:00 : UTA @ OTT
-• 07/11 21:00 : DET @ COL
-• 08/11 15:30 : VGK @ BUF</desc>
-  </programme>
   <programme start="20261104000000 +0000" stop="20261104033000 +0000" channel="Sports.Perso">
     <title>🏒 WPG @ MTL</title>
     <desc>Fiche: WPG(None) @ MTL(None) | 📺 TSN2, TSN3, RDS</desc>
