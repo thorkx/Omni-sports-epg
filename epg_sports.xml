@@ -3,20 +3,6 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261105000600 +0000" stop="20261105003000 +0000" channel="Sports.Perso">
-    <title>⏳ Prochain : OTT @ BUF</title>
-    <desc>CALENDRIER :
-• 04/11 19:30 : OTT @ BUF
-• 05/11 19:00 : UTA @ MTL
-• 05/11 21:30 : NSH @ COL
-• 06/11 19:00 : CBJ @ BUF
-• 07/11 19:00 : MTL @ TOR
-• 07/11 19:00 : UTA @ OTT
-• 07/11 21:00 : DET @ COL
-• 08/11 15:30 : VGK @ BUF
-• 10/11 19:00 : MIN @ MTL
-• 10/11 19:00 : COL @ TOR</desc>
-  </programme>
   <programme start="20261105003000 +0000" stop="20261105040000 +0000" channel="Sports.Perso">
     <title>🏒 OTT @ BUF</title>
     <desc>Fiche: OTT(None) @ BUF(None) | 📺 Prime</desc>
