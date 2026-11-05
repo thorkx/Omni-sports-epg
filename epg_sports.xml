@@ -3,11 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261105003000 +0000" stop="20261105040000 +0000" channel="Sports.Perso">
-    <title>🏒 OTT @ BUF</title>
-    <desc>Fiche: OTT(None) @ BUF(None) | 📺 Prime</desc>
-  </programme>
-  <programme start="20261105040000 +0000" stop="20261106000000 +0000" channel="Sports.Perso">
+  <programme start="20261105222949 +0000" stop="20261106000000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : UTA @ MTL</title>
     <desc>CALENDRIER :
 • 05/11 19:00 : UTA @ MTL
@@ -18,7 +14,9 @@
 • 07/11 21:00 : DET @ COL
 • 08/11 15:30 : VGK @ BUF
 • 10/11 19:00 : MIN @ MTL
-• 10/11 19:00 : COL @ TOR</desc>
+• 10/11 19:00 : COL @ TOR
+• 11/11 19:00 : TBL @ BUF
+• 11/11 21:30 : UTA @ VGK</desc>
   </programme>
   <programme start="20261106000000 +0000" stop="20261106033000 +0000" channel="Sports.Perso">
     <title>🏒 UTA @ MTL</title>
@@ -37,7 +35,9 @@
 • 07/11 21:00 : DET @ COL
 • 08/11 15:30 : VGK @ BUF
 • 10/11 19:00 : MIN @ MTL
-• 10/11 19:00 : COL @ TOR</desc>
+• 10/11 19:00 : COL @ TOR
+• 11/11 19:00 : TBL @ BUF
+• 11/11 21:30 : UTA @ VGK</desc>
   </programme>
   <programme start="20261107000000 +0000" stop="20261107033000 +0000" channel="Sports.Perso">
     <title>🏒 CBJ @ BUF</title>
@@ -51,7 +51,9 @@
 • 07/11 21:00 : DET @ COL
 • 08/11 15:30 : VGK @ BUF
 • 10/11 19:00 : MIN @ MTL
-• 10/11 19:00 : COL @ TOR</desc>
+• 10/11 19:00 : COL @ TOR
+• 11/11 19:00 : TBL @ BUF
+• 11/11 21:30 : UTA @ VGK</desc>
   </programme>
   <programme start="20261108000000 +0000" stop="20261108033000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ TOR</title>
@@ -70,7 +72,9 @@
     <desc>CALENDRIER :
 • 08/11 15:30 : VGK @ BUF
 • 10/11 19:00 : MIN @ MTL
-• 10/11 19:00 : COL @ TOR</desc>
+• 10/11 19:00 : COL @ TOR
+• 11/11 19:00 : TBL @ BUF
+• 11/11 21:30 : UTA @ VGK</desc>
   </programme>
   <programme start="20261108203000 +0000" stop="20261109000000 +0000" channel="Sports.Perso">
     <title>🏒 VGK @ BUF</title>
@@ -80,7 +84,9 @@
     <title>⏳ Prochain : MIN @ MTL</title>
     <desc>CALENDRIER :
 • 10/11 19:00 : MIN @ MTL
-• 10/11 19:00 : COL @ TOR</desc>
+• 10/11 19:00 : COL @ TOR
+• 11/11 19:00 : TBL @ BUF
+• 11/11 21:30 : UTA @ VGK</desc>
   </programme>
   <programme start="20261111000000 +0000" stop="20261111033000 +0000" channel="Sports.Perso">
     <title>🏒 MIN @ MTL</title>
@@ -89,5 +95,19 @@
   <programme start="20261111000000 +0000" stop="20261111033000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ TOR</title>
     <desc>Fiche: COL(None) @ TOR(None) | 📺 TVAS, TSN4</desc>
+  </programme>
+  <programme start="20261111033000 +0000" stop="20261112000000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : TBL @ BUF</title>
+    <desc>CALENDRIER :
+• 11/11 19:00 : TBL @ BUF
+• 11/11 21:30 : UTA @ VGK</desc>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261112033000 +0000" channel="Sports.Perso">
+    <title>🏒 TBL @ BUF</title>
+    <desc>Fiche: TBL(None) @ BUF(None)</desc>
+  </programme>
+  <programme start="20261112023000 +0000" stop="20261112060000 +0000" channel="Sports.Perso">
+    <title>🏒 UTA @ VGK</title>
+    <desc>Fiche: UTA(None) @ VGK(None)</desc>
   </programme>
 </tv>
