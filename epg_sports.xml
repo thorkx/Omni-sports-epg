@@ -3,19 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261108000000 +0000" stop="20261108033000 +0000" channel="Sports.Perso">
-    <title>🏒 MTL @ TOR</title>
-    <desc>Fiche: MTL(None) @ TOR(None) | 📺 SN, TVAS</desc>
-  </programme>
-  <programme start="20261108000000 +0000" stop="20261108033000 +0000" channel="Sports.Perso">
-    <title>🏒 UTA @ OTT</title>
-    <desc>Fiche: UTA(None) @ OTT(None) | 📺 SN1, TVAS-D</desc>
-  </programme>
-  <programme start="20261108020000 +0000" stop="20261108053000 +0000" channel="Sports.Perso">
-    <title>🏒 DET @ COL</title>
-    <desc>Fiche: DET(None) @ COL(None)</desc>
-  </programme>
-  <programme start="20261108053000 +0000" stop="20261108203000 +0000" channel="Sports.Perso">
+  <programme start="20261108200745 +0000" stop="20261108203000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : VGK @ BUF</title>
     <desc>CALENDRIER :
 • 08/11 15:30 : VGK @ BUF
@@ -26,7 +14,10 @@
 • 12/11 19:00 : MTL @ BOS
 • 12/11 19:00 : COL @ OTT
 • 12/11 20:00 : BUF @ CHI
-• 12/11 21:00 : STL @ UTA</desc>
+• 12/11 21:00 : STL @ UTA
+• 14/11 19:00 : COL @ MTL
+• 14/11 20:00 : BUF @ DAL
+• 14/11 21:00 : SJS @ UTA</desc>
   </programme>
   <programme start="20261108203000 +0000" stop="20261109000000 +0000" channel="Sports.Perso">
     <title>🏒 VGK @ BUF</title>
@@ -42,7 +33,10 @@
 • 12/11 19:00 : MTL @ BOS
 • 12/11 19:00 : COL @ OTT
 • 12/11 20:00 : BUF @ CHI
-• 12/11 21:00 : STL @ UTA</desc>
+• 12/11 21:00 : STL @ UTA
+• 14/11 19:00 : COL @ MTL
+• 14/11 20:00 : BUF @ DAL
+• 14/11 21:00 : SJS @ UTA</desc>
   </programme>
   <programme start="20261111000000 +0000" stop="20261111033000 +0000" channel="Sports.Perso">
     <title>🏒 MIN @ MTL</title>
@@ -60,7 +54,10 @@
 • 12/11 19:00 : MTL @ BOS
 • 12/11 19:00 : COL @ OTT
 • 12/11 20:00 : BUF @ CHI
-• 12/11 21:00 : STL @ UTA</desc>
+• 12/11 21:00 : STL @ UTA
+• 14/11 19:00 : COL @ MTL
+• 14/11 20:00 : BUF @ DAL
+• 14/11 21:00 : SJS @ UTA</desc>
   </programme>
   <programme start="20261112000000 +0000" stop="20261112033000 +0000" channel="Sports.Perso">
     <title>🏒 TBL @ BUF</title>
@@ -76,7 +73,10 @@
 • 12/11 19:00 : MTL @ BOS
 • 12/11 19:00 : COL @ OTT
 • 12/11 20:00 : BUF @ CHI
-• 12/11 21:00 : STL @ UTA</desc>
+• 12/11 21:00 : STL @ UTA
+• 14/11 19:00 : COL @ MTL
+• 14/11 20:00 : BUF @ DAL
+• 14/11 21:00 : SJS @ UTA</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113033000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ BOS</title>
@@ -93,5 +93,24 @@
   <programme start="20261113020000 +0000" stop="20261113053000 +0000" channel="Sports.Perso">
     <title>🏒 STL @ UTA</title>
     <desc>Fiche: STL(None) @ UTA(None)</desc>
+  </programme>
+  <programme start="20261113053000 +0000" stop="20261115000000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : COL @ MTL</title>
+    <desc>CALENDRIER :
+• 14/11 19:00 : COL @ MTL
+• 14/11 20:00 : BUF @ DAL
+• 14/11 21:00 : SJS @ UTA</desc>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261115033000 +0000" channel="Sports.Perso">
+    <title>🏒 COL @ MTL</title>
+    <desc>Fiche: COL(None) @ MTL(None) | 📺 SNE, TVAS</desc>
+  </programme>
+  <programme start="20261115010000 +0000" stop="20261115043000 +0000" channel="Sports.Perso">
+    <title>🏒 BUF @ DAL</title>
+    <desc>Fiche: BUF(None) @ DAL(None)</desc>
+  </programme>
+  <programme start="20261115020000 +0000" stop="20261115053000 +0000" channel="Sports.Perso">
+    <title>🏒 SJS @ UTA</title>
+    <desc>Fiche: SJS(None) @ UTA(None)</desc>
   </programme>
 </tv>
