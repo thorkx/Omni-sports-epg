@@ -3,22 +3,6 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261108200745 +0000" stop="20261108203000 +0000" channel="Sports.Perso">
-    <title>⏳ Prochain : VGK @ BUF</title>
-    <desc>CALENDRIER :
-• 08/11 15:30 : VGK @ BUF
-• 10/11 19:00 : MIN @ MTL
-• 10/11 19:00 : COL @ TOR
-• 11/11 19:00 : TBL @ BUF
-• 11/11 21:30 : UTA @ VGK
-• 12/11 19:00 : MTL @ BOS
-• 12/11 19:00 : COL @ OTT
-• 12/11 20:00 : BUF @ CHI
-• 12/11 21:00 : STL @ UTA
-• 14/11 19:00 : COL @ MTL
-• 14/11 20:00 : BUF @ DAL
-• 14/11 21:00 : SJS @ UTA</desc>
-  </programme>
   <programme start="20261108203000 +0000" stop="20261109000000 +0000" channel="Sports.Perso">
     <title>🏒 VGK @ BUF</title>
     <desc>Fiche: VGK(None) @ BUF(None) | 📺 SN1, TVAS</desc>
