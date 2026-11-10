@@ -3,11 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261108203000 +0000" stop="20261109000000 +0000" channel="Sports.Perso">
-    <title>🏒 VGK @ BUF</title>
-    <desc>Fiche: VGK(None) @ BUF(None) | 📺 SN1, TVAS</desc>
-  </programme>
-  <programme start="20261109000000 +0000" stop="20261111000000 +0000" channel="Sports.Perso">
+  <programme start="20261110015129 +0000" stop="20261111000000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MIN @ MTL</title>
     <desc>CALENDRIER :
 • 10/11 19:00 : MIN @ MTL
