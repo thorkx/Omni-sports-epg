@@ -3,15 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261112000000 +0000" stop="20261112033000 +0000" channel="Sports.Perso">
-    <title>🏒 TBL @ BUF</title>
-    <desc>Fiche: TBL(None) @ BUF(None)</desc>
-  </programme>
-  <programme start="20261112023000 +0000" stop="20261112060000 +0000" channel="Sports.Perso">
-    <title>🏒 UTA @ VGK</title>
-    <desc>Fiche: UTA(None) @ VGK(None)</desc>
-  </programme>
-  <programme start="20261112060000 +0000" stop="20261113000000 +0000" channel="Sports.Perso">
+  <programme start="20261112175318 +0000" stop="20261113000000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ BOS</title>
     <desc>CALENDRIER :
 • 12/11 19:00 : MTL @ BOS
@@ -23,7 +15,9 @@
 • 14/11 21:00 : SJS @ UTA
 • 16/11 19:30 : MTL @ NYR
 • 16/11 21:30 : VAN @ UTA
-• 17/11 19:00 : BUF @ PHI</desc>
+• 17/11 19:00 : BUF @ PHI
+• 18/11 19:30 : MTL @ NJD
+• 18/11 22:00 : COL @ UTA</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113033000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ BOS</title>
@@ -49,7 +43,9 @@
 • 14/11 21:00 : SJS @ UTA
 • 16/11 19:30 : MTL @ NYR
 • 16/11 21:30 : VAN @ UTA
-• 17/11 19:00 : BUF @ PHI</desc>
+• 17/11 19:00 : BUF @ PHI
+• 18/11 19:30 : MTL @ NJD
+• 18/11 22:00 : COL @ UTA</desc>
   </programme>
   <programme start="20261115000000 +0000" stop="20261115033000 +0000" channel="Sports.Perso">
     <title>🏒 COL @ MTL</title>
@@ -68,7 +64,9 @@
     <desc>CALENDRIER :
 • 16/11 19:30 : MTL @ NYR
 • 16/11 21:30 : VAN @ UTA
-• 17/11 19:00 : BUF @ PHI</desc>
+• 17/11 19:00 : BUF @ PHI
+• 18/11 19:30 : MTL @ NJD
+• 18/11 22:00 : COL @ UTA</desc>
   </programme>
   <programme start="20261117003000 +0000" stop="20261117040000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ NYR</title>
@@ -81,10 +79,26 @@
   <programme start="20261117060000 +0000" stop="20261118000000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : BUF @ PHI</title>
     <desc>CALENDRIER :
-• 17/11 19:00 : BUF @ PHI</desc>
+• 17/11 19:00 : BUF @ PHI
+• 18/11 19:30 : MTL @ NJD
+• 18/11 22:00 : COL @ UTA</desc>
   </programme>
   <programme start="20261118000000 +0000" stop="20261118033000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ PHI</title>
     <desc>Fiche: BUF(None) @ PHI(None)</desc>
+  </programme>
+  <programme start="20261118033000 +0000" stop="20261119003000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : MTL @ NJD</title>
+    <desc>CALENDRIER :
+• 18/11 19:30 : MTL @ NJD
+• 18/11 22:00 : COL @ UTA</desc>
+  </programme>
+  <programme start="20261119003000 +0000" stop="20261119040000 +0000" channel="Sports.Perso">
+    <title>🏒 MTL @ NJD</title>
+    <desc>Fiche: MTL(None) @ NJD(None) | 📺 Prime</desc>
+  </programme>
+  <programme start="20261119030000 +0000" stop="20261119063000 +0000" channel="Sports.Perso">
+    <title>🏒 COL @ UTA</title>
+    <desc>Fiche: COL(None) @ UTA(None)</desc>
   </programme>
 </tv>
