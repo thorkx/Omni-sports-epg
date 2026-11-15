@@ -3,19 +3,7 @@
   <channel id="Sports.Perso">
     <display-name>Mon Omni-Sports</display-name>
   </channel>
-  <programme start="20261115000000 +0000" stop="20261115033000 +0000" channel="Sports.Perso">
-    <title>🏒 COL @ MTL</title>
-    <desc>Fiche: COL(None) @ MTL(None) | 📺 SNE, TVAS</desc>
-  </programme>
-  <programme start="20261115010000 +0000" stop="20261115043000 +0000" channel="Sports.Perso">
-    <title>🏒 BUF @ DAL</title>
-    <desc>Fiche: BUF(None) @ DAL(None)</desc>
-  </programme>
-  <programme start="20261115020000 +0000" stop="20261115053000 +0000" channel="Sports.Perso">
-    <title>🏒 SJS @ UTA</title>
-    <desc>Fiche: SJS(None) @ UTA(None)</desc>
-  </programme>
-  <programme start="20261115053000 +0000" stop="20261117003000 +0000" channel="Sports.Perso">
+  <programme start="20261115204604 +0000" stop="20261117003000 +0000" channel="Sports.Perso">
     <title>⏳ Prochain : MTL @ NYR</title>
     <desc>CALENDRIER :
 • 16/11 19:30 : MTL @ NYR
@@ -25,7 +13,10 @@
 • 18/11 22:00 : COL @ UTA
 • 19/11 19:00 : MTL @ CAR
 • 19/11 19:00 : BUF @ WSH
-• 19/11 21:00 : ANA @ COL</desc>
+• 19/11 21:00 : ANA @ COL
+• 21/11 18:00 : BUF @ FLA
+• 21/11 19:00 : PHI @ MTL
+• 21/11 21:00 : ANA @ UTA</desc>
   </programme>
   <programme start="20261117003000 +0000" stop="20261117040000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ NYR</title>
@@ -43,7 +34,10 @@
 • 18/11 22:00 : COL @ UTA
 • 19/11 19:00 : MTL @ CAR
 • 19/11 19:00 : BUF @ WSH
-• 19/11 21:00 : ANA @ COL</desc>
+• 19/11 21:00 : ANA @ COL
+• 21/11 18:00 : BUF @ FLA
+• 21/11 19:00 : PHI @ MTL
+• 21/11 21:00 : ANA @ UTA</desc>
   </programme>
   <programme start="20261118000000 +0000" stop="20261118033000 +0000" channel="Sports.Perso">
     <title>🏒 BUF @ PHI</title>
@@ -56,7 +50,10 @@
 • 18/11 22:00 : COL @ UTA
 • 19/11 19:00 : MTL @ CAR
 • 19/11 19:00 : BUF @ WSH
-• 19/11 21:00 : ANA @ COL</desc>
+• 19/11 21:00 : ANA @ COL
+• 21/11 18:00 : BUF @ FLA
+• 21/11 19:00 : PHI @ MTL
+• 21/11 21:00 : ANA @ UTA</desc>
   </programme>
   <programme start="20261119003000 +0000" stop="20261119040000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ NJD</title>
@@ -71,7 +68,10 @@
     <desc>CALENDRIER :
 • 19/11 19:00 : MTL @ CAR
 • 19/11 19:00 : BUF @ WSH
-• 19/11 21:00 : ANA @ COL</desc>
+• 19/11 21:00 : ANA @ COL
+• 21/11 18:00 : BUF @ FLA
+• 21/11 19:00 : PHI @ MTL
+• 21/11 21:00 : ANA @ UTA</desc>
   </programme>
   <programme start="20261120000000 +0000" stop="20261120033000 +0000" channel="Sports.Perso">
     <title>🏒 MTL @ CAR</title>
@@ -84,5 +84,24 @@
   <programme start="20261120020000 +0000" stop="20261120053000 +0000" channel="Sports.Perso">
     <title>🏒 ANA @ COL</title>
     <desc>Fiche: ANA(None) @ COL(None) | 📺 TVAS</desc>
+  </programme>
+  <programme start="20261120053000 +0000" stop="20261121230000 +0000" channel="Sports.Perso">
+    <title>⏳ Prochain : BUF @ FLA</title>
+    <desc>CALENDRIER :
+• 21/11 18:00 : BUF @ FLA
+• 21/11 19:00 : PHI @ MTL
+• 21/11 21:00 : ANA @ UTA</desc>
+  </programme>
+  <programme start="20261121230000 +0000" stop="20261122023000 +0000" channel="Sports.Perso">
+    <title>🏒 BUF @ FLA</title>
+    <desc>Fiche: BUF(None) @ FLA(None)</desc>
+  </programme>
+  <programme start="20261122000000 +0000" stop="20261122033000 +0000" channel="Sports.Perso">
+    <title>🏒 PHI @ MTL</title>
+    <desc>Fiche: PHI(None) @ MTL(None) | 📺 SNE, TVAS</desc>
+  </programme>
+  <programme start="20261122020000 +0000" stop="20261122053000 +0000" channel="Sports.Perso">
+    <title>🏒 ANA @ UTA</title>
+    <desc>Fiche: ANA(None) @ UTA(None)</desc>
   </programme>
 </tv>
